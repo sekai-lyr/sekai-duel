@@ -1,4 +1,4 @@
-﻿# 馃幋 Sekai Duel 路 澶滄洸鍐虫枟
+# 馃幋 Sekai Duel 路 澶滄洸鍐虫枟
 
 > **鍩轰簬娓告垙鐜嬭鍒?+ WebSocket 瀹炴椂瀵规垬 + Godot 4 瀹㈡埛绔殑浜屾鍏冨崱鐗屾父鎴?*
 > A Yu-Gi-Oh! rules card game with WebSocket real-time PvP and a Godot 4 client
@@ -16,7 +16,7 @@ An anime-style card duel game implementing **Yu-Gi-Oh! rules**, with a **Java We
 涓€娆惧疄鐜版父鎴忕帇瑙勫垯鐨勪簩娆″厓鍗＄墝鍐虫枟娓告垙锛?*Java Web 鍚庣 + Godot 4 瀹㈡埛绔?*锛屾敮鎸?**WebSocket 瀹炴椂 PvP 瀵规垬**銆?
 
 <p align="center">
-  <img src="screenshots/demo.gif" alt="Demo" width="720"/>
+  <img src="screenshots/demo.webp" alt="Demo" width="720"/>
 </p>
 ---
 
