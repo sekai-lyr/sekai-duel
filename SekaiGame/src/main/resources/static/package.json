@@ -1,0 +1,15 @@
+{
+  "name": "nightcord-duel-network",
+  "version": "1.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node scripts/server.mjs",
+    "test": "node --test test/*.test.js",
+    "check": "node --check js/main.js && node --check js/app.js && node --check js/ui.js && node --check js/controller.js && node --check js/engine.js",
+    "selftest": "node scripts/self-play.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.21.1"
+  }
+}

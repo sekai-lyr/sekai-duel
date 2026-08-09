@@ -1,0 +1,3680 @@
+export const PICTURE_EXTENSION_CARDS = [
+  {
+    "id": "picture_ex_001",
+    "name": "不灭钻石的意志",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "fire",
+    "race": "warrior",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【不灭钻石的意志】从卡组抽1张卡。 随后回复110LP。",
+    "image": "./assets/cards/picture-extension/picture_001.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【不灭钻石的意志】从卡组抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 110,
+        "description": "随后回复110LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_002",
+    "name": "黄金之风的觉悟",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【黄金之风的觉悟】回复740LP。",
+    "image": "./assets/cards/picture-extension/picture_002.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 740,
+        "description": "【黄金之风的觉悟】回复740LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_003",
+    "name": "乔斯达血脉",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "wind",
+    "race": "beast",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【乔斯达血脉】选择对方1只怪兽，其攻击力下降330。",
+    "image": "./assets/cards/picture-extension/picture_003.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "debuffEnemyAttack",
+        "value": 330,
+        "description": "【乔斯达血脉】选择对方1只怪兽，其攻击力下降330。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_004",
+    "name": "幻影之血",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "earth",
+    "race": "fiend",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【幻影之血】选择场上1只表侧怪兽返回持有者手牌。 随后回复140LP。",
+    "image": "./assets/cards/picture-extension/picture_004.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "returnToHand",
+        "value": 1,
+        "description": "【幻影之血】选择场上1只表侧怪兽返回持有者手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 140,
+        "description": "随后回复140LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_005",
+    "name": "群星的传承",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "light",
+    "race": "fairy",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【群星的传承】己方全部表侧怪兽攻击力上升300。",
+    "image": "./assets/cards/picture-extension/picture_005.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 300,
+        "description": "【群星的传承】己方全部表侧怪兽攻击力上升300。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_006",
+    "name": "乔乔福音·定助与透龙",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "dark",
+    "race": "machine",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【乔乔福音·定助与透龙】从卡组抽1张卡。 随后回复160LP。",
+    "image": "./assets/cards/picture-extension/picture_006.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【乔乔福音·定助与透龙】从卡组抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 160,
+        "description": "随后回复160LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_007",
+    "name": "石之海的羁绊",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "fire",
+    "race": "warrior",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【石之海的羁绊】回复840LP。",
+    "image": "./assets/cards/picture-extension/picture_007.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 840,
+        "description": "【石之海的羁绊】回复840LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_008",
+    "name": "飙马野郎",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【飙马野郎】选择对方1只怪兽，其攻击力下降380。",
+    "image": "./assets/cards/picture-extension/picture_008.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "debuffEnemyAttack",
+        "value": 380,
+        "description": "【飙马野郎】选择对方1只怪兽，其攻击力下降380。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_009",
+    "name": "战斗潮流",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "wind",
+    "race": "beast",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【战斗潮流】选择场上1只表侧怪兽返回持有者手牌。 随后回复190LP。",
+    "image": "./assets/cards/picture-extension/picture_009.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "returnToHand",
+        "value": 1,
+        "description": "【战斗潮流】选择场上1只表侧怪兽返回持有者手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 190,
+        "description": "随后回复190LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_010",
+    "name": "星尘远征",
+    "series": "picture",
+    "type": "spell",
+    "attribute": "earth",
+    "race": "fiend",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【星尘远征】己方全部表侧怪兽攻击力上升350。",
+    "image": "./assets/cards/picture-extension/picture_010.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 350,
+        "description": "【星尘远征】己方全部表侧怪兽攻击力上升350。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_011",
+    "name": "空条承太郎·白金之星",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "light",
+    "race": "fairy",
+    "level": 5,
+    "attack": 2070,
+    "defense": 2055,
+    "rarity": "SSR",
+    "cost": 3,
+    "description": "【空条承太郎·白金之星】召唤成功的回合，这张卡不成为对方效果的对象。 被破坏时，回复388LP。",
+    "image": "./assets/cards/picture-extension/picture_011.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 11,
+        "description": "【空条承太郎·白金之星】召唤成功的回合，这张卡不成为对方效果的对象。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 388,
+        "description": "被破坏时，回复388LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_012",
+    "name": "吉良吉影·杀手皇后",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "machine",
+    "level": 5,
+    "attack": 2110,
+    "defense": 2090,
+    "rarity": "SSR",
+    "cost": 3,
+    "description": "【吉良吉影·杀手皇后】召唤成功时，抽1张卡，然后本回合不能再次抽卡。 被破坏时，回复396LP。",
+    "image": "./assets/cards/picture-extension/picture_012.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【吉良吉影·杀手皇后】召唤成功时，抽1张卡，然后本回合不能再次抽卡。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 396,
+        "description": "被破坏时，回复396LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_013",
+    "name": "迪亚哥·THE WORLD",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "warrior",
+    "level": 5,
+    "attack": 2150,
+    "defense": 1950,
+    "rarity": "SSR",
+    "cost": 3,
+    "description": "【迪亚哥·THE WORLD】召唤成功时，自身攻击力上升245。 被破坏时，回复404LP。",
+    "image": "./assets/cards/picture-extension/picture_013.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 245,
+        "description": "【迪亚哥·THE WORLD】召唤成功时，自身攻击力上升245。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 404,
+        "description": "被破坏时，回复404LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_014",
+    "name": "盖多·米斯达·性感手枪",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 5,
+    "attack": 2190,
+    "defense": 1985,
+    "rarity": "SSR",
+    "cost": 3,
+    "description": "【盖多·米斯达·性感手枪】召唤成功时，自身守备力上升260。 被破坏时，回复412LP。",
+    "image": "./assets/cards/picture-extension/picture_014.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 260,
+        "description": "【盖多·米斯达·性感手枪】召唤成功时，自身守备力上升260。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 412,
+        "description": "被破坏时，回复412LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_015",
+    "name": "露西·钢铁蔷薇",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "beast",
+    "level": 8,
+    "attack": 2600,
+    "defense": 2560,
+    "rarity": "SSR",
+    "cost": 6,
+    "description": "【露西·钢铁蔷薇】召唤成功时，回复400LP。 被破坏时，回复420LP。",
+    "image": "./assets/cards/picture-extension/picture_015.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 400,
+        "description": "【露西·钢铁蔷薇】召唤成功时，回复400LP。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 420,
+        "description": "被破坏时，回复420LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_016",
+    "name": "赫特·潘兹·奶油启动器",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "fiend",
+    "level": 8,
+    "attack": 2640,
+    "defense": 2595,
+    "rarity": "SSR",
+    "cost": 6,
+    "description": "【赫特·潘兹·奶油启动器】召唤成功时，对方攻击力最高的怪兽下降240。 被破坏时，回复428LP。",
+    "image": "./assets/cards/picture-extension/picture_016.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 240,
+        "description": "【赫特·潘兹·奶油启动器】召唤成功时，对方攻击力最高的怪兽下降240。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 428,
+        "description": "被破坏时，回复428LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_017",
+    "name": "迪亚哥·骇人恶兽",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "light",
+    "race": "fairy",
+    "level": 8,
+    "attack": 2680,
+    "defense": 2630,
+    "rarity": "SSR",
+    "cost": 6,
+    "description": "【迪亚哥·骇人恶兽】召唤成功的回合，这张卡不成为对方效果的对象。 被破坏时，回复436LP。",
+    "image": "./assets/cards/picture-extension/picture_017.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 17,
+        "description": "【迪亚哥·骇人恶兽】召唤成功的回合，这张卡不成为对方效果的对象。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 436,
+        "description": "被破坏时，回复436LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_018",
+    "name": "法尼·瓦伦泰·爱之列车",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "machine",
+    "level": 8,
+    "attack": 2720,
+    "defense": 2490,
+    "rarity": "SSR",
+    "cost": 6,
+    "description": "【法尼·瓦伦泰·爱之列车】召唤成功时，抽1张卡，然后本回合不能再次抽卡。 被破坏时，回复444LP。",
+    "image": "./assets/cards/picture-extension/picture_018.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【法尼·瓦伦泰·爱之列车】召唤成功时，抽1张卡，然后本回合不能再次抽卡。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 444,
+        "description": "被破坏时，回复444LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_019",
+    "name": "灶门炭治郎·火之神神乐",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "warrior",
+    "level": 4,
+    "attack": 1910,
+    "defense": 1705,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【灶门炭治郎·火之神神乐】召唤成功时，自身攻击力上升275。",
+    "image": "./assets/cards/picture-extension/picture_019.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 275,
+        "description": "【灶门炭治郎·火之神神乐】召唤成功时，自身攻击力上升275。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_020",
+    "name": "伊黑小芭内·蛇之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 4,
+    "attack": 1750,
+    "defense": 1740,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【伊黑小芭内·蛇之呼吸】召唤成功时，自身守备力上升290。",
+    "image": "./assets/cards/picture-extension/picture_020.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 290,
+        "description": "【伊黑小芭内·蛇之呼吸】召唤成功时，自身守备力上升290。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_021",
+    "name": "我妻善逸·霹雳一闪",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "light",
+    "race": "beast",
+    "level": 4,
+    "attack": 1790,
+    "defense": 1775,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【我妻善逸·霹雳一闪】召唤成功时，自身攻击力上升285。",
+    "image": "./assets/cards/picture-extension/picture_021.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 285,
+        "description": "【我妻善逸·霹雳一闪】召唤成功时，自身攻击力上升285。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_022",
+    "name": "甘露寺蜜璃·恋之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "fiend",
+    "level": 4,
+    "attack": 1830,
+    "defense": 1810,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【甘露寺蜜璃·恋之呼吸】召唤成功时，回复470LP。",
+    "image": "./assets/cards/picture-extension/picture_022.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 470,
+        "description": "【甘露寺蜜璃·恋之呼吸】召唤成功时，回复470LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_023",
+    "name": "悲鸣屿行冥·岩之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "fairy",
+    "level": 4,
+    "attack": 1870,
+    "defense": 1670,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【悲鸣屿行冥·岩之呼吸】召唤成功时，自身守备力上升305。",
+    "image": "./assets/cards/picture-extension/picture_023.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 305,
+        "description": "【悲鸣屿行冥·岩之呼吸】召唤成功时，自身守备力上升305。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_024",
+    "name": "蝴蝶忍·蝶之舞",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "machine",
+    "level": 4,
+    "attack": 1910,
+    "defense": 1705,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【蝴蝶忍·蝶之舞】召唤成功时，对方攻击力最高的怪兽下降280。",
+    "image": "./assets/cards/picture-extension/picture_024.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 280,
+        "description": "【蝴蝶忍·蝶之舞】召唤成功时，对方攻击力最高的怪兽下降280。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_025",
+    "name": "富冈义勇·水之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "water",
+    "race": "warrior",
+    "level": 4,
+    "attack": 1750,
+    "defense": 1740,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【富冈义勇·水之呼吸】召唤成功时，自身守备力上升315。",
+    "image": "./assets/cards/picture-extension/picture_025.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 315,
+        "description": "【富冈义勇·水之呼吸】召唤成功时，自身守备力上升315。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_026",
+    "name": "不死川实弥·旋风斩",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "spellcaster",
+    "level": 4,
+    "attack": 1790,
+    "defense": 1775,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【不死川实弥·旋风斩】召唤成功时，自身守备力上升320。",
+    "image": "./assets/cards/picture-extension/picture_026.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 320,
+        "description": "【不死川实弥·旋风斩】召唤成功时，自身守备力上升320。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_027",
+    "name": "灶门祢豆子·爆血",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "beast",
+    "level": 4,
+    "attack": 1830,
+    "defense": 1810,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【灶门祢豆子·爆血】召唤成功时，回复520LP。",
+    "image": "./assets/cards/picture-extension/picture_027.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 520,
+        "description": "【灶门祢豆子·爆血】召唤成功时，回复520LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_028",
+    "name": "时透无一郎·霞之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "fiend",
+    "level": 4,
+    "attack": 1870,
+    "defense": 1670,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【时透无一郎·霞之呼吸】召唤成功时，对方攻击力最高的怪兽下降300。",
+    "image": "./assets/cards/picture-extension/picture_028.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 300,
+        "description": "【时透无一郎·霞之呼吸】召唤成功时，对方攻击力最高的怪兽下降300。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_029",
+    "name": "嘴平伊之助·兽之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "light",
+    "race": "fairy",
+    "level": 4,
+    "attack": 1910,
+    "defense": 1705,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【嘴平伊之助·兽之呼吸】召唤成功的回合，这张卡不成为对方效果的对象。",
+    "image": "./assets/cards/picture-extension/picture_029.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 29,
+        "description": "【嘴平伊之助·兽之呼吸】召唤成功的回合，这张卡不成为对方效果的对象。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_030",
+    "name": "炼狱杏寿郎·炎之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "machine",
+    "level": 4,
+    "attack": 1750,
+    "defense": 1740,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【炼狱杏寿郎·炎之呼吸】召唤成功时，自身攻击力上升330。",
+    "image": "./assets/cards/picture-extension/picture_030.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 330,
+        "description": "【炼狱杏寿郎·炎之呼吸】召唤成功时，自身攻击力上升330。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_031",
+    "name": "不死川实弥·风之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "warrior",
+    "level": 4,
+    "attack": 1790,
+    "defense": 1775,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【不死川实弥·风之呼吸】召唤成功时，自身攻击力上升335。",
+    "image": "./assets/cards/picture-extension/picture_031.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 335,
+        "description": "【不死川实弥·风之呼吸】召唤成功时，自身攻击力上升335。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_032",
+    "name": "宇髓天元·音之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 4,
+    "attack": 1830,
+    "defense": 1810,
+    "rarity": "SR",
+    "cost": 1,
+    "description": "【宇髓天元·音之呼吸】召唤成功时，自身守备力上升350。",
+    "image": "./assets/cards/picture-extension/picture_032.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 350,
+        "description": "【宇髓天元·音之呼吸】召唤成功时，自身守备力上升350。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_033",
+    "name": "富冈义勇·水柱",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "water",
+    "race": "beast",
+    "level": 5,
+    "attack": 2060,
+    "defense": 1850,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【富冈义勇·水柱】召唤成功时，自身守备力上升355。",
+    "image": "./assets/cards/picture-extension/picture_033.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 355,
+        "description": "【富冈义勇·水柱】召唤成功时，自身守备力上升355。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_034",
+    "name": "伊黑小芭内·蛇柱",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "fiend",
+    "level": 5,
+    "attack": 2100,
+    "defense": 1885,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【伊黑小芭内·蛇柱】召唤成功时，自身守备力上升360。",
+    "image": "./assets/cards/picture-extension/picture_034.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 360,
+        "description": "【伊黑小芭内·蛇柱】召唤成功时，自身守备力上升360。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_035",
+    "name": "炼狱杏寿郎·炎柱",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "fairy",
+    "level": 5,
+    "attack": 1940,
+    "defense": 1920,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【炼狱杏寿郎·炎柱】召唤成功时，自身攻击力上升355。",
+    "image": "./assets/cards/picture-extension/picture_035.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 355,
+        "description": "【炼狱杏寿郎·炎柱】召唤成功时，自身攻击力上升355。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_036",
+    "name": "时透无一郎·月下霞",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "machine",
+    "level": 5,
+    "attack": 1980,
+    "defense": 1955,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【时透无一郎·月下霞】召唤成功时，抽1张卡，然后本回合不能再次抽卡。",
+    "image": "./assets/cards/picture-extension/picture_036.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【时透无一郎·月下霞】召唤成功时，抽1张卡，然后本回合不能再次抽卡。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_037",
+    "name": "蝴蝶忍·紫藤毒",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "warrior",
+    "level": 5,
+    "attack": 2020,
+    "defense": 1990,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【蝴蝶忍·紫藤毒】召唤成功时，对方攻击力最高的怪兽下降345。",
+    "image": "./assets/cards/picture-extension/picture_037.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 345,
+        "description": "【蝴蝶忍·紫藤毒】召唤成功时，对方攻击力最高的怪兽下降345。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_038",
+    "name": "甘露寺蜜璃·恋柱",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 5,
+    "attack": 2060,
+    "defense": 1850,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【甘露寺蜜璃·恋柱】召唤成功时，回复630LP。",
+    "image": "./assets/cards/picture-extension/picture_038.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 630,
+        "description": "【甘露寺蜜璃·恋柱】召唤成功时，回复630LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_039",
+    "name": "宇髓天元·谱面完成",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "beast",
+    "level": 5,
+    "attack": 2100,
+    "defense": 1885,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【宇髓天元·谱面完成】召唤成功时，回复640LP。",
+    "image": "./assets/cards/picture-extension/picture_039.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 640,
+        "description": "【宇髓天元·谱面完成】召唤成功时，回复640LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_040",
+    "name": "不死川实弥·稀血",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "fiend",
+    "level": 5,
+    "attack": 1940,
+    "defense": 1920,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【不死川实弥·稀血】召唤成功时，对方攻击力最高的怪兽下降360。",
+    "image": "./assets/cards/picture-extension/picture_040.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 360,
+        "description": "【不死川实弥·稀血】召唤成功时，对方攻击力最高的怪兽下降360。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_041",
+    "name": "悲鸣屿行冥·南无阿弥陀佛",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "fairy",
+    "level": 5,
+    "attack": 1980,
+    "defense": 1955,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【悲鸣屿行冥·南无阿弥陀佛】召唤成功时，自身守备力上升395。",
+    "image": "./assets/cards/picture-extension/picture_041.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 395,
+        "description": "【悲鸣屿行冥·南无阿弥陀佛】召唤成功时，自身守备力上升395。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_042",
+    "name": "猗窝座·破坏杀",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "machine",
+    "level": 6,
+    "attack": 2210,
+    "defense": 2170,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【猗窝座·破坏杀】召唤成功时，自身攻击力上升390。",
+    "image": "./assets/cards/picture-extension/picture_042.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 390,
+        "description": "【猗窝座·破坏杀】召唤成功时，自身攻击力上升390。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_043",
+    "name": "富冈义勇·水面斩",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "water",
+    "race": "warrior",
+    "level": 6,
+    "attack": 2250,
+    "defense": 2030,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【富冈义勇·水面斩】召唤成功时，自身守备力上升405。",
+    "image": "./assets/cards/picture-extension/picture_043.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 405,
+        "description": "【富冈义勇·水面斩】召唤成功时，自身守备力上升405。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_044",
+    "name": "继国缘一·日之呼吸",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 6,
+    "attack": 2290,
+    "defense": 2065,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【继国缘一·日之呼吸】召唤成功时，自身守备力上升410。",
+    "image": "./assets/cards/picture-extension/picture_044.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 410,
+        "description": "【继国缘一·日之呼吸】召唤成功时，自身守备力上升410。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_045",
+    "name": "甘露寺蜜璃·猫足恋风",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "beast",
+    "level": 6,
+    "attack": 2130,
+    "defense": 2100,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【甘露寺蜜璃·猫足恋风】召唤成功时，回复700LP。",
+    "image": "./assets/cards/picture-extension/picture_045.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 700,
+        "description": "【甘露寺蜜璃·猫足恋风】召唤成功时，回复700LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_046",
+    "name": "蝴蝶忍·蜈蚣之舞",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "fiend",
+    "level": 6,
+    "attack": 2170,
+    "defense": 2135,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【蝴蝶忍·蜈蚣之舞】召唤成功时，对方攻击力最高的怪兽下降390。",
+    "image": "./assets/cards/picture-extension/picture_046.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 390,
+        "description": "【蝴蝶忍·蜈蚣之舞】召唤成功时，对方攻击力最高的怪兽下降390。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_047",
+    "name": "宇髓天元·双刀爆裂",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "light",
+    "race": "fairy",
+    "level": 6,
+    "attack": 2210,
+    "defense": 2170,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【宇髓天元·双刀爆裂】召唤成功的回合，这张卡不成为对方效果的对象。",
+    "image": "./assets/cards/picture-extension/picture_047.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 47,
+        "description": "【宇髓天元·双刀爆裂】召唤成功的回合，这张卡不成为对方效果的对象。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_048",
+    "name": "我妻善逸·火雷神",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "light",
+    "race": "machine",
+    "level": 6,
+    "attack": 2250,
+    "defense": 2030,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【我妻善逸·火雷神】召唤成功时，自身攻击力上升420。",
+    "image": "./assets/cards/picture-extension/picture_048.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 420,
+        "description": "【我妻善逸·火雷神】召唤成功时，自身攻击力上升420。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_049",
+    "name": "时透无一郎·胧",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "warrior",
+    "level": 6,
+    "attack": 2290,
+    "defense": 2065,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【时透无一郎·胧】召唤成功时，自身攻击力上升425。",
+    "image": "./assets/cards/picture-extension/picture_049.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 425,
+        "description": "【时透无一郎·胧】召唤成功时，自身攻击力上升425。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_050",
+    "name": "炼狱杏寿郎·奥义玖之型",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 6,
+    "attack": 2130,
+    "defense": 2100,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【炼狱杏寿郎·奥义玖之型】召唤成功时，自身攻击力上升430。",
+    "image": "./assets/cards/picture-extension/picture_050.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 430,
+        "description": "【炼狱杏寿郎·奥义玖之型】召唤成功时，自身攻击力上升430。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_051",
+    "name": "嘴平伊之助·空间感知",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "beast",
+    "level": 6,
+    "attack": 2170,
+    "defense": 2135,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【嘴平伊之助·空间感知】召唤成功时，回复760LP。",
+    "image": "./assets/cards/picture-extension/picture_051.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 760,
+        "description": "【嘴平伊之助·空间感知】召唤成功时，回复760LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_052",
+    "name": "悲鸣屿行冥·岩躯",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "fiend",
+    "level": 6,
+    "attack": 2210,
+    "defense": 2170,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【悲鸣屿行冥·岩躯】召唤成功时，自身守备力上升450。",
+    "image": "./assets/cards/picture-extension/picture_052.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 450,
+        "description": "【悲鸣屿行冥·岩躯】召唤成功时，自身守备力上升450。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_053",
+    "name": "伊黑小芭内·月夜蛇行",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "light",
+    "race": "fairy",
+    "level": 6,
+    "attack": 2250,
+    "defense": 2030,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【伊黑小芭内·月夜蛇行】召唤成功时，自身守备力上升455。",
+    "image": "./assets/cards/picture-extension/picture_053.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 455,
+        "description": "【伊黑小芭内·月夜蛇行】召唤成功时，自身守备力上升455。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_054",
+    "name": "炼狱杏寿郎·炎心",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "machine",
+    "level": 6,
+    "attack": 2290,
+    "defense": 2065,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【炼狱杏寿郎·炎心】召唤成功时，自身攻击力上升450。",
+    "image": "./assets/cards/picture-extension/picture_054.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 450,
+        "description": "【炼狱杏寿郎·炎心】召唤成功时，自身攻击力上升450。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_055",
+    "name": "童磨·寒夜莲华",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "warrior",
+    "level": 7,
+    "attack": 2320,
+    "defense": 2280,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【童磨·寒夜莲华】召唤成功时，自身攻击力上升455。",
+    "image": "./assets/cards/picture-extension/picture_055.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 455,
+        "description": "【童磨·寒夜莲华】召唤成功时，自身攻击力上升455。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_056",
+    "name": "猗窝座·罗针",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2360,
+    "defense": 2315,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【猗窝座·罗针】召唤成功时，自身攻击力上升460。",
+    "image": "./assets/cards/picture-extension/picture_056.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 460,
+        "description": "【猗窝座·罗针】召唤成功时，自身攻击力上升460。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_057",
+    "name": "蝴蝶忍·蝶影毒刃",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "beast",
+    "level": 7,
+    "attack": 2400,
+    "defense": 2350,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【蝴蝶忍·蝶影毒刃】召唤成功时，对方攻击力最高的怪兽下降445。",
+    "image": "./assets/cards/picture-extension/picture_057.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 445,
+        "description": "【蝴蝶忍·蝶影毒刃】召唤成功时，对方攻击力最高的怪兽下降445。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_058",
+    "name": "不死川实弥·黑风烟岚",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "fiend",
+    "level": 7,
+    "attack": 2440,
+    "defense": 2210,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【不死川实弥·黑风烟岚】召唤成功时，对方攻击力最高的怪兽下降450。",
+    "image": "./assets/cards/picture-extension/picture_058.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 450,
+        "description": "【不死川实弥·黑风烟岚】召唤成功时，对方攻击力最高的怪兽下降450。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_059",
+    "name": "嘴平伊之助·兽牙乱舞",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "light",
+    "race": "fairy",
+    "level": 7,
+    "attack": 2480,
+    "defense": 2245,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【嘴平伊之助·兽牙乱舞】召唤成功的回合，这张卡不成为对方效果的对象。",
+    "image": "./assets/cards/picture-extension/picture_059.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 59,
+        "description": "【嘴平伊之助·兽牙乱舞】召唤成功的回合，这张卡不成为对方效果的对象。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_060",
+    "name": "灶门炭治郎·水火轮转",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "machine",
+    "level": 7,
+    "attack": 2320,
+    "defense": 2280,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【灶门炭治郎·水火轮转】召唤成功时，抽1张卡，然后本回合不能再次抽卡。",
+    "image": "./assets/cards/picture-extension/picture_060.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【灶门炭治郎·水火轮转】召唤成功时，抽1张卡，然后本回合不能再次抽卡。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_061",
+    "name": "悲鸣屿行冥·石肤",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "warrior",
+    "level": 7,
+    "attack": 2360,
+    "defense": 2315,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【悲鸣屿行冥·石肤】召唤成功时，自身守备力上升495。",
+    "image": "./assets/cards/picture-extension/picture_061.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 495,
+        "description": "【悲鸣屿行冥·石肤】召唤成功时，自身守备力上升495。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_062",
+    "name": "富冈义勇·生生流转",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2400,
+    "defense": 2350,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【富冈义勇·生生流转】召唤成功时，自身守备力上升500。",
+    "image": "./assets/cards/picture-extension/picture_062.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 500,
+        "description": "【富冈义勇·生生流转】召唤成功时，自身守备力上升500。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_063",
+    "name": "炼狱杏寿郎·炼狱",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "beast",
+    "level": 7,
+    "attack": 2440,
+    "defense": 2210,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【炼狱杏寿郎·炼狱】召唤成功时，自身攻击力上升495。",
+    "image": "./assets/cards/picture-extension/picture_063.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 495,
+        "description": "【炼狱杏寿郎·炼狱】召唤成功时，自身攻击力上升495。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_064",
+    "name": "甘露寺蜜璃·摇曳恋情",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "fiend",
+    "level": 7,
+    "attack": 2480,
+    "defense": 2245,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【甘露寺蜜璃·摇曳恋情】召唤成功时，回复890LP。",
+    "image": "./assets/cards/picture-extension/picture_064.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 890,
+        "description": "【甘露寺蜜璃·摇曳恋情】召唤成功时，回复890LP。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_065",
+    "name": "灶门炭十郎·赤月神乐",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "fairy",
+    "level": 7,
+    "attack": 2320,
+    "defense": 2280,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【鬼舞辻无惨·赤月】召唤成功时，对方攻击力最高的怪兽下降485。",
+    "image": "./assets/cards/picture-extension/picture_065.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 485,
+        "description": "【鬼舞辻无惨·赤月】召唤成功时，对方攻击力最高的怪兽下降485。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_066",
+    "name": "时透无一郎·水月霞",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "machine",
+    "level": 7,
+    "attack": 2360,
+    "defense": 2315,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【时透无一郎·水月霞】召唤成功时，抽1张卡，然后本回合不能再次抽卡。",
+    "image": "./assets/cards/picture-extension/picture_066.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【时透无一郎·水月霞】召唤成功时，抽1张卡，然后本回合不能再次抽卡。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_067",
+    "name": "宇髓天元·爆音斩",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "warrior",
+    "level": 7,
+    "attack": 2400,
+    "defense": 2350,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【宇髓天元·爆音斩】召唤成功时，自身攻击力上升515。",
+    "image": "./assets/cards/picture-extension/picture_067.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 515,
+        "description": "【宇髓天元·爆音斩】召唤成功时，自身攻击力上升515。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_068",
+    "name": "黑死牟·月虹",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2440,
+    "defense": 2210,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【黑死牟·月虹】召唤成功时，对方攻击力最高的怪兽下降500。",
+    "image": "./assets/cards/picture-extension/picture_068.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 500,
+        "description": "【黑死牟·月虹】召唤成功时，对方攻击力最高的怪兽下降500。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_069",
+    "name": "伊黑小芭内·蜿蜒蛇行",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "beast",
+    "level": 7,
+    "attack": 2480,
+    "defense": 2245,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【伊黑小芭内·蜿蜒蛇行】召唤成功时，自身守备力上升535。",
+    "image": "./assets/cards/picture-extension/picture_069.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 535,
+        "description": "【伊黑小芭内·蜿蜒蛇行】召唤成功时，自身守备力上升535。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_070",
+    "name": "我妻善逸·雷霆万钧",
+    "series": "picture",
+    "type": "monster",
+    "attribute": "light",
+    "race": "fiend",
+    "level": 7,
+    "attack": 2320,
+    "defense": 2280,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【我妻善逸·雷霆万钧】召唤成功时，自身攻击力上升530。",
+    "image": "./assets/cards/picture-extension/picture_070.jpg",
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 530,
+        "description": "【我妻善逸·雷霆万钧】召唤成功时，自身攻击力上升530。"
+      }
+    ]
+  },
+  {
+    "id": "picture_ex_071",
+    "name": "矿洞小鼠",
+    "series": "picture",
+    "member": null,
+    "race": "machine",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 2,
+    "attack": 875,
+    "defense": 1000,
+    "rarity": "N",
+    "cost": 1,
+    "description": "【矿洞小鼠】召唤成功时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【矿洞小鼠】召唤成功时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_071.webp",
+    "tags": [
+      "picture",
+      "advanced",
+      "n"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 34
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_072",
+    "name": "菜月昴·死亡回归",
+    "series": "picture",
+    "member": null,
+    "race": "beast",
+    "type": "monster",
+    "attribute": "earth",
+    "level": 4,
+    "attack": 1580,
+    "defense": 1660,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【菜月昴·死亡回归】召唤成功的回合：此卡不会成为对方效果的对象。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 1,
+        "description": "【菜月昴·死亡回归】召唤成功的回合：此卡不会成为对方效果的对象。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_072.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 60
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_073",
+    "name": "白眼·回天",
+    "series": "picture",
+    "member": null,
+    "race": "spellcaster",
+    "type": "monster",
+    "attribute": "light",
+    "level": 4,
+    "attack": 1625,
+    "defense": 1500,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【白眼·回天】召唤成功时：自身攻击力上升951。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 951,
+        "description": "【白眼·回天】召唤成功时：自身攻击力上升951。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_073.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 60
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_074",
+    "name": "宇智波鼬·须佐鸦影",
+    "series": "picture",
+    "member": null,
+    "race": "warrior",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 4,
+    "attack": 1670,
+    "defense": 1540,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【我爱罗·砂瀑守护】召唤成功时：自身守备力上升988。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 988,
+        "description": "【我爱罗·砂瀑守护】召唤成功时：自身守备力上升988。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_074.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 60
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_075",
+    "name": "佩恩·神罗天征",
+    "series": "picture",
+    "member": null,
+    "race": "fairy",
+    "type": "monster",
+    "attribute": "water",
+    "level": 4,
+    "attack": 1490,
+    "defense": 1580,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【佩恩·神罗天征】召唤成功时：回复1445LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1445,
+        "description": "【佩恩·神罗天征】召唤成功时：回复1445LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_075.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 60
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_076",
+    "name": "二代火影·水遁",
+    "series": "picture",
+    "member": null,
+    "race": "fiend",
+    "type": "monster",
+    "attribute": "dark",
+    "level": 4,
+    "attack": 1535,
+    "defense": 1620,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【二代火影·水遁】召唤成功时：对方攻击力最高的怪兽攻击力下降1018。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1018,
+        "description": "【二代火影·水遁】召唤成功时：对方攻击力最高的怪兽攻击力下降1018。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_076.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 60
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_077",
+    "name": "宇智波佐助·须佐能乎",
+    "series": "picture",
+    "member": null,
+    "race": "machine",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 4,
+    "attack": 1580,
+    "defense": 1660,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【宇智波佐助·须佐能乎】召唤成功时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【宇智波佐助·须佐能乎】召唤成功时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_077.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 60
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_078",
+    "name": "旗木卡卡西·雷切",
+    "series": "picture",
+    "member": null,
+    "race": "beast",
+    "type": "monster",
+    "attribute": "earth",
+    "level": 4,
+    "attack": 1625,
+    "defense": 1500,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【旗木卡卡西·雷切】召唤成功的回合：此卡不会成为对方效果的对象。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 1,
+        "description": "【旗木卡卡西·雷切】召唤成功的回合：此卡不会成为对方效果的对象。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_078.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 60
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_079",
+    "name": "千手纲手·怪力",
+    "series": "picture",
+    "member": null,
+    "race": "spellcaster",
+    "type": "monster",
+    "attribute": "light",
+    "level": 4,
+    "attack": 1670,
+    "defense": 1540,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【千手纲手·怪力】召唤成功时：自身攻击力上升993。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 993,
+        "description": "【千手纲手·怪力】召唤成功时：自身攻击力上升993。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_079.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 60
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_080",
+    "name": "朝比奈真冬·雨夜狙击",
+    "series": "picture",
+    "member": null,
+    "race": "warrior",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 5,
+    "attack": 1695,
+    "defense": 1770,
+    "rarity": "SR",
+    "cost": 3,
+    "description": "【朝比奈真冬·雨夜狙击】召唤成功时：自身守备力上升1030。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1030,
+        "description": "【朝比奈真冬·雨夜狙击】召唤成功时：自身守备力上升1030。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_080.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 61
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_081",
+    "name": "波风水门·九喇嘛连结",
+    "series": "picture",
+    "member": null,
+    "race": "fairy",
+    "type": "monster",
+    "attribute": "water",
+    "level": 6,
+    "attack": 1945,
+    "defense": 2000,
+    "rarity": "SR",
+    "cost": 4,
+    "description": "【鸣人·九喇嘛连结】召唤成功时：回复1511LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1511,
+        "description": "【鸣人·九喇嘛连结】召唤成功时：回复1511LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_081.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 62
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_082",
+    "name": "辉夜·橙梦舞台",
+    "series": "picture",
+    "member": null,
+    "race": "fiend",
+    "type": "monster",
+    "attribute": "dark",
+    "level": 2,
+    "attack": 1295,
+    "defense": 1400,
+    "rarity": "SSR",
+    "cost": 3,
+    "description": "【花里实乃理·橙梦舞台】召唤成功时：对方攻击力最高的怪兽攻击力下降1186。 【花里实乃理·橙梦舞台】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1186,
+        "description": "【花里实乃理·橙梦舞台】召唤成功时：对方攻击力最高的怪兽攻击力下降1186。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【花里实乃理·橙梦舞台】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_082.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 70
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_083",
+    "name": "月见八千代·海月幻梦",
+    "series": "picture",
+    "member": null,
+    "race": "machine",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 2,
+    "attack": 1340,
+    "defense": 1240,
+    "rarity": "SSR",
+    "cost": 3,
+    "description": "【草薙宁宁·海月幻梦】召唤成功时：抽1张卡。 【草薙宁宁·海月幻梦】被破坏时：回复1107LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【草薙宁宁·海月幻梦】召唤成功时：抽1张卡。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1107,
+        "description": "【草薙宁宁·海月幻梦】被破坏时：回复1107LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_083.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 70
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_084",
+    "name": "酒寄彩叶·青瓷流云",
+    "series": "picture",
+    "member": null,
+    "race": "beast",
+    "type": "monster",
+    "attribute": "earth",
+    "level": 2,
+    "attack": 1385,
+    "defense": 1280,
+    "rarity": "SSR",
+    "cost": 3,
+    "description": "【日野森雫·青瓷流云】召唤成功的回合：此卡不会成为对方效果的对象。 【日野森雫·青瓷流云】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 1,
+        "description": "【日野森雫·青瓷流云】召唤成功的回合：此卡不会成为对方效果的对象。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【日野森雫·青瓷流云】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_084.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 70
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_085",
+    "name": "朝比奈真冬·静默旋律",
+    "series": "picture",
+    "member": null,
+    "race": "spellcaster",
+    "type": "monster",
+    "attribute": "light",
+    "level": 3,
+    "attack": 1410,
+    "defense": 1510,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【朝比奈真冬·静默旋律】召唤成功时：自身攻击力上升1165。 【朝比奈真冬·静默旋律】被破坏时：回复1125LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1165,
+        "description": "【朝比奈真冬·静默旋律】召唤成功时：自身攻击力上升1165。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1125,
+        "description": "【朝比奈真冬·静默旋律】被破坏时：回复1125LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_085.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 71
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_086",
+    "name": "宵崎奏·雪原白夜",
+    "series": "picture",
+    "member": null,
+    "race": "warrior",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 3,
+    "attack": 1455,
+    "defense": 1550,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【宵崎奏·雪原白夜】召唤成功时：自身守备力上升1202。 【宵崎奏·雪原白夜】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1202,
+        "description": "【宵崎奏·雪原白夜】召唤成功时：自身守备力上升1202。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【宵崎奏·雪原白夜】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_086.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 71
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_087",
+    "name": "东云绘名·迷途画境",
+    "series": "picture",
+    "member": null,
+    "race": "fairy",
+    "type": "monster",
+    "attribute": "water",
+    "level": 3,
+    "attack": 1500,
+    "defense": 1590,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【东云绘名·迷途画境】召唤成功时：回复1757LP。 【东云绘名·迷途画境】被破坏时：回复1143LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1757,
+        "description": "【东云绘名·迷途画境】召唤成功时：回复1757LP。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1143,
+        "description": "【东云绘名·迷途画境】被破坏时：回复1143LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_087.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 71
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_088",
+    "name": "丰川祥子·蓝蔷薇",
+    "series": "picture",
+    "member": null,
+    "race": "fiend",
+    "type": "monster",
+    "attribute": "dark",
+    "level": 3,
+    "attack": 1545,
+    "defense": 1430,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【日野森雫·蓝蔷薇】召唤成功时：对方攻击力最高的怪兽攻击力下降1234。 【日野森雫·蓝蔷薇】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1234,
+        "description": "【日野森雫·蓝蔷薇】召唤成功时：对方攻击力最高的怪兽攻击力下降1234。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【日野森雫·蓝蔷薇】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_088.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 71
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_089",
+    "name": "晓山瑞希·粉黛之心",
+    "series": "picture",
+    "member": null,
+    "race": "machine",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 3,
+    "attack": 1590,
+    "defense": 1470,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【晓山瑞希·粉黛之心】召唤成功时：抽1张卡。 【晓山瑞希·粉黛之心】被破坏时：回复1161LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【晓山瑞希·粉黛之心】召唤成功时：抽1张卡。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1161,
+        "description": "【晓山瑞希·粉黛之心】被破坏时：回复1161LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_089.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 71
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_090",
+    "name": "津岛善子·堕天使夜羽",
+    "series": "picture",
+    "member": null,
+    "race": "beast",
+    "type": "monster",
+    "attribute": "earth",
+    "level": 4,
+    "attack": 1615,
+    "defense": 1700,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【津岛善子·堕天使夜羽】召唤成功的回合：此卡不会成为对方效果的对象。 【津岛善子·堕天使夜羽】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 1,
+        "description": "【津岛善子·堕天使夜羽】召唤成功的回合：此卡不会成为对方效果的对象。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【津岛善子·堕天使夜羽】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_090.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_091",
+    "name": "若叶睦·水墨午后",
+    "series": "picture",
+    "member": null,
+    "race": "spellcaster",
+    "type": "monster",
+    "attribute": "light",
+    "level": 4,
+    "attack": 1660,
+    "defense": 1740,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【椎名真昼·水墨午后】召唤成功时：自身攻击力上升1207。 【椎名真昼·水墨午后】被破坏时：回复1179LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1207,
+        "description": "【椎名真昼·水墨午后】召唤成功时：自身攻击力上升1207。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1179,
+        "description": "【椎名真昼·水墨午后】被破坏时：回复1179LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_091.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_092",
+    "name": "露帕·金叶跃动",
+    "series": "picture",
+    "member": null,
+    "race": "warrior",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 4,
+    "attack": 1705,
+    "defense": 1780,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【喜多郁代·金叶跃动】召唤成功时：自身守备力上升1244。 【喜多郁代·金叶跃动】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1244,
+        "description": "【喜多郁代·金叶跃动】召唤成功时：自身守备力上升1244。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【喜多郁代·金叶跃动】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_092.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_093",
+    "name": "海老塚智·绯线独奏",
+    "series": "picture",
+    "member": null,
+    "race": "fairy",
+    "type": "monster",
+    "attribute": "water",
+    "level": 4,
+    "attack": 1750,
+    "defense": 1620,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【后藤一里·绯线独奏】召唤成功时：回复1823LP。 【后藤一里·绯线独奏】被破坏时：回复1197LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1823,
+        "description": "【后藤一里·绯线独奏】召唤成功时：回复1823LP。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1197,
+        "description": "【后藤一里·绯线独奏】被破坏时：回复1197LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_093.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_094",
+    "name": "井芹仁菜·碧空旋律",
+    "series": "picture",
+    "member": null,
+    "race": "fiend",
+    "type": "monster",
+    "attribute": "dark",
+    "level": 4,
+    "attack": 1795,
+    "defense": 1660,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【喜多郁代·碧空旋律】召唤成功时：对方攻击力最高的怪兽攻击力下降1282。 【喜多郁代·碧空旋律】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1282,
+        "description": "【喜多郁代·碧空旋律】召唤成功时：对方攻击力最高的怪兽攻击力下降1282。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【喜多郁代·碧空旋律】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_094.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_095",
+    "name": "河原木桃香·海风浅笑",
+    "series": "picture",
+    "member": null,
+    "race": "machine",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 4,
+    "attack": 1615,
+    "defense": 1700,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【喜多川海梦·海风浅笑】召唤成功时：抽1张卡。 【喜多川海梦·海风浅笑】被破坏时：回复1215LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【喜多川海梦·海风浅笑】召唤成功时：抽1张卡。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1215,
+        "description": "【喜多川海梦·海风浅笑】被破坏时：回复1215LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_095.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_096",
+    "name": "RUPA·坠空追风",
+    "series": "picture",
+    "member": null,
+    "race": "beast",
+    "type": "monster",
+    "attribute": "earth",
+    "level": 4,
+    "attack": 1660,
+    "defense": 1740,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【有马加奈·坠空追风】召唤成功的回合：此卡不会成为对方效果的对象。 【有马加奈·坠空追风】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 1,
+        "description": "【有马加奈·坠空追风】召唤成功的回合：此卡不会成为对方效果的对象。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【有马加奈·坠空追风】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_096.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_097",
+    "name": "若叶睦·素描沉思",
+    "series": "picture",
+    "member": null,
+    "race": "spellcaster",
+    "type": "monster",
+    "attribute": "light",
+    "level": 4,
+    "attack": 1705,
+    "defense": 1780,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【椎名真昼·素描沉思】召唤成功时：自身攻击力上升1249。 【椎名真昼·素描沉思】被破坏时：回复1233LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1249,
+        "description": "【椎名真昼·素描沉思】召唤成功时：自身攻击力上升1249。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1233,
+        "description": "【椎名真昼·素描沉思】被破坏时：回复1233LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_097.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_098",
+    "name": "安和昴·深海蓝影",
+    "series": "picture",
+    "member": null,
+    "race": "warrior",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 4,
+    "attack": 1750,
+    "defense": 1620,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【高松灯·深海蓝影】召唤成功时：自身守备力上升1286。 【高松灯·深海蓝影】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1286,
+        "description": "【高松灯·深海蓝影】召唤成功时：自身守备力上升1286。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【高松灯·深海蓝影】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_098.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_099",
+    "name": "奥泽美咲·暖窗时光",
+    "series": "picture",
+    "member": null,
+    "race": "fairy",
+    "type": "monster",
+    "attribute": "water",
+    "level": 4,
+    "attack": 1795,
+    "defense": 1660,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【奥泽美咲·暖窗时光】召唤成功时：回复1889LP。 【奥泽美咲·暖窗时光】被破坏时：回复1251LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1889,
+        "description": "【奥泽美咲·暖窗时光】召唤成功时：回复1889LP。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1251,
+        "description": "【奥泽美咲·暖窗时光】被破坏时：回复1251LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_099.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 72
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_100",
+    "name": "晓山瑞希·缤纷节拍",
+    "series": "picture",
+    "member": null,
+    "race": "fiend",
+    "type": "monster",
+    "attribute": "dark",
+    "level": 5,
+    "attack": 1820,
+    "defense": 1890,
+    "rarity": "SSR",
+    "cost": 4,
+    "description": "【晓山瑞希·缤纷节拍】召唤成功时：对方攻击力最高的怪兽攻击力下降1330。 【晓山瑞希·缤纷节拍】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1330,
+        "description": "【晓山瑞希·缤纷节拍】召唤成功时：对方攻击力最高的怪兽攻击力下降1330。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【晓山瑞希·缤纷节拍】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_100.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 73
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_101",
+    "name": "初音未来·深海回响",
+    "series": "picture",
+    "member": null,
+    "race": "machine",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 6,
+    "attack": 2070,
+    "defense": 2120,
+    "rarity": "SSR",
+    "cost": 5,
+    "description": "【初音未来·深海回响】召唤成功时：抽1张卡。 【初音未来·深海回响】被破坏时：回复1269LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【初音未来·深海回响】召唤成功时：抽1张卡。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1269,
+        "description": "【初音未来·深海回响】被破坏时：回复1269LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_101.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 74
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_102",
+    "name": "暗影·原子裁决",
+    "series": "picture",
+    "member": null,
+    "race": "beast",
+    "type": "monster",
+    "attribute": "earth",
+    "level": 8,
+    "attack": 2525,
+    "defense": 2540,
+    "rarity": "SSR",
+    "cost": 5,
+    "description": "【暗影·原子裁决】召唤成功的回合：此卡不会成为对方效果的对象。 【暗影·原子裁决】被破坏时：抽1张卡。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "targetProtect",
+        "value": 1,
+        "description": "【暗影·原子裁决】召唤成功的回合：此卡不会成为对方效果的对象。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【暗影·原子裁决】被破坏时：抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_102.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 76
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_103",
+    "name": "暗影·终焉权能",
+    "series": "picture",
+    "member": null,
+    "race": "spellcaster",
+    "type": "monster",
+    "attribute": "light",
+    "level": 8,
+    "attack": 2570,
+    "defense": 2380,
+    "rarity": "SSR",
+    "cost": 5,
+    "description": "【暗影·终焉权能】召唤成功时：自身攻击力上升1291。 【暗影·终焉权能】被破坏时：回复1287LP。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1291,
+        "description": "【暗影·终焉权能】召唤成功时：自身攻击力上升1291。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1287,
+        "description": "【暗影·终焉权能】被破坏时：回复1287LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_103.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ssr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 76
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_104",
+    "name": "黑化阿尔托莉雅·暗夜血刃",
+    "series": "picture",
+    "member": null,
+    "race": "warrior",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 6,
+    "attack": 2330,
+    "defense": 2160,
+    "rarity": "UR",
+    "cost": 6,
+    "description": "【黑化阿尔托莉雅·暗夜血刃】召唤成功时：自身守备力上升1458。 【黑化阿尔托莉雅·暗夜血刃】被破坏时：抽1张卡。 【黑化阿尔托莉雅·暗夜血刃】若以解放召唤此卡，再上升864攻击力。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1458,
+        "description": "【黑化阿尔托莉雅·暗夜血刃】召唤成功时：自身守备力上升1458。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【黑化阿尔托莉雅·暗夜血刃】被破坏时：抽1张卡。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 864,
+        "description": "【黑化阿尔托莉雅·暗夜血刃】若以解放召唤此卡，再上升864攻击力。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_104.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ur"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 86
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_105",
+    "name": "黑化阿尔托莉雅·绯狱复仇",
+    "series": "picture",
+    "member": null,
+    "race": "fairy",
+    "type": "monster",
+    "attribute": "water",
+    "level": 6,
+    "attack": 2150,
+    "defense": 2200,
+    "rarity": "UR",
+    "cost": 6,
+    "description": "【黑化阿尔托莉雅·绯狱复仇】召唤成功时：回复2135LP。 【黑化阿尔托莉雅·绯狱复仇】被破坏时：回复1305LP。 【黑化阿尔托莉雅·绯狱复仇】若以解放召唤此卡，再上升870攻击力。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 2135,
+        "description": "【黑化阿尔托莉雅·绯狱复仇】召唤成功时：回复2135LP。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1305,
+        "description": "【黑化阿尔托莉雅·绯狱复仇】被破坏时：回复1305LP。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 870,
+        "description": "【黑化阿尔托莉雅·绯狱复仇】若以解放召唤此卡，再上升870攻击力。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_105.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ur"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 86
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_106",
+    "name": "阿尔托莉雅·黄昏断罪",
+    "series": "picture",
+    "member": null,
+    "race": "fiend",
+    "type": "monster",
+    "attribute": "dark",
+    "level": 6,
+    "attack": 2195,
+    "defense": 2240,
+    "rarity": "UR",
+    "cost": 6,
+    "description": "【阿尔托莉雅·黄昏断罪】召唤成功时：对方攻击力最高的怪兽攻击力下降1498。 【阿尔托莉雅·黄昏断罪】被破坏时：抽1张卡。 【阿尔托莉雅·黄昏断罪】若以解放召唤此卡，再上升876攻击力。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1498,
+        "description": "【阿尔托莉雅·黄昏断罪】召唤成功时：对方攻击力最高的怪兽攻击力下降1498。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【阿尔托莉雅·黄昏断罪】被破坏时：抽1张卡。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 876,
+        "description": "【阿尔托莉雅·黄昏断罪】若以解放召唤此卡，再上升876攻击力。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_106.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ur"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 86
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_107",
+    "name": "初音未来·苍穹音浪",
+    "series": "picture",
+    "member": null,
+    "race": "machine",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 6,
+    "attack": 2240,
+    "defense": 2280,
+    "rarity": "UR",
+    "cost": 6,
+    "description": "【初音未来·苍穹音浪】召唤成功时：抽1张卡。 【初音未来·苍穹音浪】被破坏时：回复1323LP。 【初音未来·苍穹音浪】若以解放召唤此卡，再上升882攻击力。",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【初音未来·苍穹音浪】召唤成功时：抽1张卡。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1323,
+        "description": "【初音未来·苍穹音浪】被破坏时：回复1323LP。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 882,
+        "description": "【初音未来·苍穹音浪】若以解放召唤此卡，再上升882攻击力。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_107.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ur"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 86
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_108",
+    "name": "青春教室的约定",
+    "series": "picture",
+    "member": null,
+    "race": "beast",
+    "type": "spell",
+    "attribute": "earth",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【青春教室的约定】己方全部表侧怪兽攻击力上升1822。 【青春教室的约定】抽1张卡。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 1822,
+        "description": "【青春教室的约定】己方全部表侧怪兽攻击力上升1822。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【青春教室的约定】抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_108.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_109",
+    "name": "古见同学的勇气",
+    "series": "picture",
+    "member": null,
+    "race": "spellcaster",
+    "type": "spell",
+    "attribute": "light",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【古见同学的勇气】抽1张卡。 【古见同学的勇气】回复3045LP。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【古见同学的勇气】抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 3045,
+        "description": "【古见同学的勇气】回复3045LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_109.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_110",
+    "name": "从零开始的羁绊",
+    "series": "picture",
+    "member": null,
+    "race": "warrior",
+    "type": "spell",
+    "attribute": "wind",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【从零开始的羁绊】回复2740LP。 【从零开始的羁绊】己方全部表侧怪兽攻击力上升1500。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 2740,
+        "description": "【从零开始的羁绊】回复2740LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 1500,
+        "description": "【从零开始的羁绊】己方全部表侧怪兽攻击力上升1500。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_110.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_111",
+    "name": "雪乃与八幡的并肩",
+    "series": "picture",
+    "member": null,
+    "race": "fairy",
+    "type": "spell",
+    "attribute": "water",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【雪乃与八幡的并肩】对方全部表侧怪兽攻击力下降1925。 【雪乃与八幡的并肩】抽1张卡。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "debuffAllEnemyAttack",
+        "value": 1925,
+        "description": "【雪乃与八幡的并肩】对方全部表侧怪兽攻击力下降1925。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【雪乃与八幡的并肩】抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_111.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_112",
+    "name": "邪王真眼的宣言",
+    "series": "picture",
+    "member": null,
+    "race": "fiend",
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【邪王真眼的宣言】选择对方1只怪兽返回持有者手牌。 【邪王真眼的宣言】回复2520LP。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "returnToHand",
+        "value": 0,
+        "description": "【邪王真眼的宣言】选择对方1只怪兽返回持有者手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 2520,
+        "description": "【邪王真眼的宣言】回复2520LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_112.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_113",
+    "name": "喜多川海梦的笑容",
+    "series": "picture",
+    "member": null,
+    "race": "machine",
+    "type": "spell",
+    "attribute": "fire",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【喜多川海梦的笑容】给予对方2096点伤害。 【喜多川海梦的笑容】对方全部表侧怪兽攻击力下降1423。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "directDamage",
+        "value": 2096,
+        "description": "【喜多川海梦的笑容】给予对方2096点伤害。"
+      },
+      {
+        "trigger": "manual",
+        "type": "debuffAllEnemyAttack",
+        "value": 1423,
+        "description": "【喜多川海梦的笑容】对方全部表侧怪兽攻击力下降1423。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_113.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_114",
+    "name": "山田杏奈的放学后",
+    "series": "picture",
+    "member": null,
+    "race": "beast",
+    "type": "spell",
+    "attribute": "earth",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【山田杏奈的放学后】己方全部表侧怪兽攻击力上升1906。 【山田杏奈的放学后】抽1张卡。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 1906,
+        "description": "【山田杏奈的放学后】己方全部表侧怪兽攻击力上升1906。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【山田杏奈的放学后】抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_114.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_115",
+    "name": "加藤惠的温柔时光",
+    "series": "picture",
+    "member": null,
+    "race": "spellcaster",
+    "type": "spell",
+    "attribute": "light",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【加藤惠的温柔时光】抽1张卡。 【加藤惠的温柔时光】回复3195LP。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【加藤惠的温柔时光】抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 3195,
+        "description": "【加藤惠的温柔时光】回复3195LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_115.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_116",
+    "name": "友利奈绪的悸动",
+    "series": "picture",
+    "member": null,
+    "race": "warrior",
+    "type": "spell",
+    "attribute": "wind",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【友利奈绪的悸动】回复2830LP。 【友利奈绪的悸动】己方全部表侧怪兽攻击力上升1572。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 2830,
+        "description": "【友利奈绪的悸动】回复2830LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 1572,
+        "description": "【友利奈绪的悸动】己方全部表侧怪兽攻击力上升1572。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_116.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_117",
+    "name": "高木同学的恶作剧",
+    "series": "picture",
+    "member": null,
+    "race": "fairy",
+    "type": "spell",
+    "attribute": "water",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 2,
+    "description": "【高木同学的恶作剧】对方全部表侧怪兽攻击力下降2015。 【高木同学的恶作剧】抽1张卡。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "debuffAllEnemyAttack",
+        "value": 2015,
+        "description": "【高木同学的恶作剧】对方全部表侧怪兽攻击力下降2015。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "【高木同学的恶作剧】抽1张卡。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_117.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "sr"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 56
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_118",
+    "name": "世界线的粉色奇迹",
+    "series": "picture",
+    "member": null,
+    "race": "fiend",
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "description": "【世界线的粉色奇迹】选择对方1只怪兽返回持有者手牌。 【世界线的粉色奇迹】回复2640LP。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "returnToHand",
+        "value": 0,
+        "description": "【世界线的粉色奇迹】选择对方1只怪兽返回持有者手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 2640,
+        "description": "【世界线的粉色奇迹】回复2640LP。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_118.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ur"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 80
+    },
+    "enabled": true
+  },
+  {
+    "id": "picture_ex_119",
+    "name": "从零开始的异世界祝福",
+    "series": "picture",
+    "member": null,
+    "race": "machine",
+    "type": "spell",
+    "attribute": "fire",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "description": "【从零开始的异世界祝福】给予对方2488点伤害。 【从零开始的异世界祝福】对方全部表侧怪兽攻击力下降1489。",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "directDamage",
+        "value": 2488,
+        "description": "【从零开始的异世界祝福】给予对方2488点伤害。"
+      },
+      {
+        "trigger": "manual",
+        "type": "debuffAllEnemyAttack",
+        "value": 1489,
+        "description": "【从零开始的异世界祝福】对方全部表侧怪兽攻击力下降1489。"
+      }
+    ],
+    "image": "./assets/cards/picture-extension/picture_119.jpg",
+    "tags": [
+      "picture",
+      "advanced",
+      "ur"
+    ],
+    "aiHints": {
+      "role": "balanced",
+      "priority": 80
+    },
+    "enabled": true
+  }
+];
+
+for (const card of PICTURE_EXTENSION_CARDS) {
+  const syncRuleTitle = (text) => typeof text === "string"
+    ? text.replace(/^【[^】]+】/, `【${card.name}】`)
+    : text;
+  card.description = syncRuleTitle(card.description);
+  for (const effect of card.effects || []) effect.description = syncRuleTitle(effect.description);
+}

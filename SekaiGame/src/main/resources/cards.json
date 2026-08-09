@@ -1,0 +1,5042 @@
+[
+  {
+    "id": "water_007",
+    "name": "蓝絮猫女仆 凯伊",
+    "type": "monster",
+    "attribute": "water",
+    "race": "beast",
+    "level": 4,
+    "attack": 1300,
+    "defense": 1500,
+    "rarity": "R",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 300,
+        "description": "召唤成功时：自身守备力+300。"
+      }
+    ],
+    "description": "召唤成功时：自身守备力+300。",
+    "image": "./assets/cards/monsters/R/4星/蓝絮猫女仆 凯伊.jpg",
+    "series": "nightcord",
+    "tags": [
+      "priority",
+      "conditional",
+      "search"
+    ],
+    "aiHints": {
+      "role": "defender",
+      "priority": 55
+    },
+    "lore": "",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":300,\"description\":\"召唤成功时：自身守备力+300。\"}]"
+  },
+  {
+    "id": "water_008",
+    "name": "里间雨",
+    "type": "monster",
+    "attribute": "water",
+    "race": "warrior",
+    "level": 4,
+    "attack": 1700,
+    "defense": 1400,
+    "rarity": "R",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 400,
+        "description": "召唤成功时：对方攻击力最低的1只怪兽攻击力-400。"
+      }
+    ],
+    "description": "召唤成功时：对方攻击力最低的1只怪兽攻击力-400。",
+    "image": "./assets/cards/monsters/R/4星/里间雨.jpg",
+    "series": "nightcord",
+    "tags": [
+      "protect",
+      "redirect",
+      "bounce"
+    ],
+    "aiHints": {
+      "role": "defender",
+      "priority": 60
+    },
+    "lore": "",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":400,\"description\":\"召唤成功时：对方攻击力最低的1只怪兽攻击力-400。\"}]"
+  },
+  {
+    "id": "water_009",
+    "name": "宫崎奏",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 4,
+    "attack": 1700,
+    "defense": 1400,
+    "rarity": "R",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 700,
+        "description": "召唤成功时：回复700LP。"
+      }
+    ],
+    "description": "召唤成功时：回复700LP。",
+    "image": "./assets/cards/monsters/R/4星/宫崎奏.jpg",
+    "series": "nightcord",
+    "tags": [
+      "recycle",
+      "disrupt",
+      "buff"
+    ],
+    "aiHints": {
+      "role": "defender",
+      "priority": 58
+    },
+    "lore": "",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":700,\"description\":\"召唤成功时：回复700LP。\"}]"
+  },
+  {
+    "id": "water_010",
+    "name": "山田凉",
+    "type": "monster",
+    "attribute": "water",
+    "race": "warrior",
+    "level": 4,
+    "attack": 1700,
+    "defense": 1200,
+    "rarity": "SSR",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 600,
+        "description": "召唤成功时：自身攻击力+600。"
+      }
+    ],
+    "description": "召唤成功时：自身攻击力+600。",
+    "image": "./assets/cards/monsters/SSR/4星/山田凉.jpg",
+    "series": "nightcord",
+    "tags": [
+      "recycle",
+      "fusion"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 72
+    },
+    "lore": "",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":600,\"description\":\"召唤成功时：自身攻击力+600。\"}]"
+  },
+  {
+    "id": "water_011",
+    "name": "青蓝妆者",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 4,
+    "attack": 1600,
+    "defense": 1400,
+    "rarity": "SSR",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "召唤成功时：抽1张卡。"
+      }
+    ],
+    "description": "召唤成功时：抽1张卡。",
+    "image": "./assets/cards/monsters/SSR/4星/青蓝妆者.jpg",
+    "series": "nightcord",
+    "tags": [
+      "search",
+      "spell"
+    ],
+    "aiHints": {
+      "role": "support",
+      "priority": 68
+    },
+    "lore": "",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1,\"description\":\"召唤成功时：抽1张卡。\"}]"
+  },
+  {
+    "id": "dark_006",
+    "name": "朝比奈真冬",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 4,
+    "attack": 1550,
+    "defense": 1450,
+    "rarity": "UR",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "returnToHand",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "召唤成功时：将对方攻击力最高的1只怪兽返回手牌。"
+      }
+    ],
+    "description": "召唤成功时：将对方攻击力最高的1只怪兽返回手牌。",
+    "image": "./assets/cards/monsters/UR/4星/朝比奈真冬.jpg",
+    "series": "nightcord",
+    "tags": [
+      "control",
+      "disable"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 75
+    },
+    "lore": "",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"returnToHand\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"召唤成功时：将对方攻击力最高的1只怪兽返回手牌。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_001",
+    "name": "八千年的思念",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 5,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 2,
+        "description": "抽2张卡。"
+      }
+    ],
+    "description": "抽2张卡。",
+    "image": "./assets/cards/spells/ur/8千年的思念.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":2,\"description\":\"抽2张卡。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_002",
+    "name": "薄采序奏",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 800,
+        "description": "己方场上全部怪兽攻击力+800。"
+      }
+    ],
+    "description": "己方场上全部怪兽攻击力+800。",
+    "image": "./assets/cards/spells/ur/薄采序奏.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":800,\"description\":\"己方场上全部怪兽攻击力+800。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_003",
+    "name": "不登校的未来",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 3,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "temporaryBanish",
+        "value": 0,
+        "description": "选择对方攻击力最高的1只怪兽：将其暂时除外，回合结束时返回场上。"
+      }
+    ],
+    "description": "选择对方攻击力最高的1只怪兽：将其暂时除外，回合结束时返回场上。",
+    "image": "./assets/cards/spells/ur/不登校的未来.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"temporaryBanish\",\"value\":0,\"description\":\"选择对方攻击力最高的1只怪兽：将其暂时除外，回合结束时返回场上。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_004",
+    "name": "放学后的茶会",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 3,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1800,
+        "description": "回复1800LP。"
+      }
+    ],
+    "description": "回复1800LP。",
+    "image": "./assets/cards/spells/ur/放学后的茶会.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1800,\"description\":\"回复1800LP。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_005",
+    "name": "碎穹",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 6,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "destroyTarget",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "破坏对方场上1只怪兽。"
+      }
+    ],
+    "description": "破坏对方场上1只怪兽。",
+    "image": "./assets/cards/spells/ur/碎穹.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"destroyTarget\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"破坏对方场上1只怪兽。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_006",
+    "name": "有刺无刺",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "directDamage",
+        "value": 1200,
+        "description": "给予对方1200点伤害。"
+      }
+    ],
+    "description": "给予对方1200点伤害。",
+    "image": "./assets/cards/spells/ur/有刺无刺.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"directDamage\",\"value\":1200,\"description\":\"给予对方1200点伤害。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_007",
+    "name": "社恐的焦虑",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "damageAllEnemyMonsters",
+        "value": 700,
+        "description": "对方场上全部怪兽守备力-700；守备力变为0的怪兽破坏。"
+      }
+    ],
+    "description": "对方场上全部怪兽守备力-700；守备力变为0的怪兽破坏。",
+    "image": "./assets/cards/spells/ur/社恐的焦虑.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"damageAllEnemyMonsters\",\"value\":700,\"description\":\"对方场上全部怪兽守备力-700；守备力变为0的怪兽破坏。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_008",
+    "name": "月下传讯",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "damageAndHeal",
+        "value": 900,
+        "description": "选择对方1只怪兽：其守备力-900；自己回复实际减少的数值。"
+      }
+    ],
+    "description": "选择对方1只怪兽：其守备力-900；自己回复实际减少的数值。",
+    "image": "./assets/cards/spells/ur/月下传讯.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"damageAndHeal\",\"value\":900,\"description\":\"选择对方1只怪兽：其守备力-900；自己回复实际减少的数值。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_009",
+    "name": "最好的伙伴",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 5,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "reviveToHand",
+        "value": 0,
+        "description": "选择己方墓地1只怪兽加入手牌。"
+      }
+    ],
+    "description": "选择己方墓地1只怪兽加入手牌。",
+    "image": "./assets/cards/spells/ur/最好的伙伴.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"reviveToHand\",\"value\":0,\"description\":\"选择己方墓地1只怪兽加入手牌。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_010",
+    "name": "游戏王座",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "gameThroneDraw",
+        "value": 2,
+        "description": "抽2张卡；若其中同时有怪兽与魔法，再抽1张卡。本回合不能进行战斗。"
+      }
+    ],
+    "description": "抽2张卡；若其中同时有怪兽与魔法，再抽1张卡。本回合不能进行战斗。",
+    "image": "./assets/cards/spells/ur/游戏王座.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"gameThroneDraw\",\"value\":2,\"description\":\"抽2张卡；若其中同时有怪兽与魔法，再抽1张卡。本回合不能进行战斗。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_012",
+    "name": "寄往遥远彼岸的信",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 5,
+    "isFieldSpell": false,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "debuffAllEnemyAttack",
+        "value": 800,
+        "description": "对方场上全部怪兽攻击力-800。"
+      }
+    ],
+    "description": "对方场上全部怪兽攻击力-800。",
+    "image": "./assets/cards/spells/ur/寄往遥远彼岸的信.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"debuffAllEnemyAttack\",\"value\":800,\"description\":\"对方场上全部怪兽攻击力-800。\"}]"
+  },
+  {
+    "id": "nc_sp_ur_011",
+    "name": "浅海浮汐",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "water",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "isFieldSpell": true,
+    "fieldSpellType": "ocean_scene",
+    "effects": [
+      {
+        "trigger": "field",
+        "type": "fieldOceanScene",
+        "value": 450,
+        "description": "场地魔法：己方水属性怪兽攻击力与守备力+450；对方守备表示时需弃1张手牌。"
+      }
+    ],
+    "description": "场地魔法：己方水属性怪兽攻击力与守备力+450；对方守备表示时需弃1张手牌。",
+    "image": "./assets/cards/spells/ur/浅海浮汐.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"field\",\"type\":\"fieldOceanScene\",\"value\":450,\"description\":\"场地魔法：己方水属性怪兽攻击力与守备力+450；对方守备表示时需弃1张手牌。\"}]"
+  },
+  {
+    "id": "nc_sp_ss_001",
+    "name": "畸变DNA",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 4,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "damageBothPlayers",
+        "value": 500,
+        "description": "双方各受到500点伤害。"
+      }
+    ],
+    "description": "双方各受到500点伤害。",
+    "image": "./assets/cards/spells/ssr/畸变DNA.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"damageBothPlayers\",\"value\":500,\"description\":\"双方各受到500点伤害。\"}]"
+  },
+  {
+    "id": "nc_sp_ss_002",
+    "name": "夏风石阶的挚友茶会",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "light",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 3,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1400,
+        "description": "回复1400LP。"
+      }
+    ],
+    "description": "回复1400LP。",
+    "image": "./assets/cards/spells/ssr/夏风石阶的挚友茶会.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1400,\"description\":\"回复1400LP。\"}]"
+  },
+  {
+    "id": "nc_sp_ss_003",
+    "name": "夜刻萦音的永续热忱",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "light",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 4,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "recycleSpellDraw",
+        "value": 1,
+        "description": "将己方墓地1张魔法卡放回卡组顶端，然后抽1张卡。"
+      }
+    ],
+    "description": "将己方墓地1张魔法卡放回卡组顶端，然后抽1张卡。",
+    "image": "./assets/cards/spells/ssr/夜刻萦音的永续热忱.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"recycleSpellDraw\",\"value\":1,\"description\":\"将己方墓地1张魔法卡放回卡组顶端，然后抽1张卡。\"}]"
+  },
+  {
+    "id": "nc_sp_ss_004",
+    "name": "幽蝶旧画的沉郁祈愿",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 5,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "temporaryBanish",
+        "value": 0,
+        "description": "选择对方攻击力最高的1只怪兽：将其暂时除外，回合结束时返回场上。"
+      }
+    ],
+    "description": "选择对方攻击力最高的1只怪兽：将其暂时除外，回合结束时返回场上。",
+    "image": "./assets/cards/spells/ssr/幽蝶旧画的沉郁祈愿.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"temporaryBanish\",\"value\":0,\"description\":\"选择对方攻击力最高的1只怪兽：将其暂时除外，回合结束时返回场上。\"}]"
+  },
+  {
+    "id": "nc_sp_ss_005",
+    "name": "奏响点亮天空",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "light",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 4,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "recycleAndDraw",
+        "owner": "self",
+        "description": "将己方所有手牌送入墓地，然后抽取相同数量的卡。"
+      }
+    ],
+    "description": "将己方所有手牌送入墓地，然后抽取相同数量的卡。",
+    "image": "./assets/cards/spells/ssr/奏响点亮天空.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"recycleAndDraw\",\"owner\":\"self\",\"description\":\"将己方所有手牌送入墓地，然后抽取相同数量的卡。\"}]"
+  },
+  {
+    "id": "nc_sp_ss_006",
+    "name": "沉睡的蓝调",
+    "series": "nightcord",
+    "member": null,
+    "type": "spell",
+    "attribute": "water",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 4,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchWaterMonster",
+        "value": 4,
+        "description": "从卡组将1只4级以下水属性怪兽加入手牌。"
+      }
+    ],
+    "description": "从卡组将1只4级以下水属性怪兽加入手牌。",
+    "image": "./assets/cards/spells/ssr/沉睡的蓝调.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchWaterMonster\",\"value\":4,\"description\":\"从卡组将1只4级以下水属性怪兽加入手牌。\"}]"
+  },
+  {
+    "id": "nc_tr_001",
+    "name": "暮雨长街的独行",
+    "series": "nightcord",
+    "member": null,
+    "type": "trap",
+    "attribute": "dark",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 0,
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "cannotAttack",
+        "value": 0,
+        "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能攻击。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能攻击。",
+    "image": "./assets/cards/traps/ur/暮雨长街的独行.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"cannotAttack\",\"value\":0,\"description\":\"对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能攻击。\"}]"
+  },
+  {
+    "id": "nc_tr_002",
+    "name": "寒岭汤泉的憩息",
+    "series": "nightcord",
+    "member": null,
+    "type": "trap",
+    "attribute": "light",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 0,
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reduceDamage",
+        "value": 1800,
+        "description": "对方攻击宣言时发动：本次战斗伤害减少1800。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：本次战斗伤害减少1800。",
+    "image": "./assets/cards/traps/ur/寒岭汤泉的憩息.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reduceDamage\",\"value\":1800,\"description\":\"对方攻击宣言时发动：本次战斗伤害减少1800。\"}]"
+  },
+  {
+    "id": "nc_tr_003",
+    "name": "澄湖栈桥的余晖",
+    "series": "nightcord",
+    "member": null,
+    "type": "trap",
+    "attribute": "water",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 0,
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "returnToHand",
+        "value": 0,
+        "description": "对方攻击宣言时发动：攻击怪兽返回手牌，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：攻击怪兽返回手牌，那次攻击无效。",
+    "image": "./assets/cards/traps/ur/澄湖栈桥的余晖.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"returnToHand\",\"value\":0,\"description\":\"对方攻击宣言时发动：攻击怪兽返回手牌，那次攻击无效。\"}]"
+  },
+  {
+    "id": "nc_tr_004",
+    "name": "夏空校舍的流云",
+    "series": "nightcord",
+    "member": null,
+    "type": "trap",
+    "attribute": "wind",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 0,
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reflectDamage",
+        "value": 0,
+        "description": "对方攻击宣言时发动：那次攻击无效，并给予攻击方等同攻击力的伤害。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，并给予攻击方等同攻击力的伤害。",
+    "image": "./assets/cards/traps/ur/夏空校舍的流云.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reflectDamage\",\"value\":0,\"description\":\"对方攻击宣言时发动：那次攻击无效，并给予攻击方等同攻击力的伤害。\"}]"
+  },
+  {
+    "id": "nc_tr_005",
+    "name": "星降神篱的祈愿",
+    "series": "nightcord",
+    "member": null,
+    "type": "trap",
+    "attribute": "light",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 0,
+    "isCounterTrap": true,
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "destroyAttacker",
+        "value": 0,
+        "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。",
+    "image": "./assets/cards/traps/ur/星降神篱的祈愿.jpg",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"destroyAttacker\",\"value\":0,\"description\":\"对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。\"}]"
+  },
+  {
+    "name": "Night Dance",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_008",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/008.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "temporaryBanish",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "暂时除外对方攻击力最高的1只怪兽。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "抽1张卡。"
+      }
+    ],
+    "description": "暂时除外对方攻击力最高的1只怪兽。\n抽1张卡。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"temporaryBanish\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"暂时除外对方攻击力最高的1只怪兽。\"},{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"抽1张卡。\"}]"
+  },
+  {
+    "name": "裁布牵情",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_009",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/009.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1350,
+        "description": "回复1350LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 350,
+        "description": "己方场上全部怪兽攻击力上升350。"
+      },
+      {
+        "trigger": "manual",
+        "type": "cannotBeAttacked",
+        "value": 0,
+        "target": {
+          "owner": "self",
+          "zone": "monster",
+          "selector": "all"
+        },
+        "description": "己方全部怪兽本回合不会被战斗破坏。"
+      }
+    ],
+    "description": "回复1350LP。\n己方场上全部怪兽攻击力上升350。\n己方全部怪兽本回合不会被战斗破坏。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1350,\"description\":\"回复1350LP。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":350,\"description\":\"己方场上全部怪兽攻击力上升350。\"},{\"trigger\":\"manual\",\"type\":\"cannotBeAttacked\",\"value\":0,\"target\":{\"owner\":\"self\",\"zone\":\"monster\",\"selector\":\"all\"},\"description\":\"己方全部怪兽本回合不会被战斗破坏。\"}]"
+  },
+  {
+    "name": "怪异诡缘",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_010",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/010.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "discardCards",
+        "value": 1,
+        "description": "对方随机丢弃1张手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "lockAttack",
+        "value": 1,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "封锁对方攻击力最高的1只怪兽本回合攻击。"
+      }
+    ],
+    "description": "对方随机丢弃1张手牌。\n封锁对方攻击力最高的1只怪兽本回合攻击。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"discardCards\",\"value\":1,\"description\":\"对方随机丢弃1张手牌。\"},{\"trigger\":\"manual\",\"type\":\"lockAttack\",\"value\":1,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"封锁对方攻击力最高的1只怪兽本回合攻击。\"}]"
+  },
+  {
+    "name": "家隅旧契",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_011",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/011.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 550,
+        "description": "己方场上怪兽攻击力上升550。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升550。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":550,\"description\":\"己方场上怪兽攻击力上升550。\"}]"
+  },
+  {
+    "name": "借晚风缔结的青涩誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_012",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/012.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 250,
+        "description": "己方场上怪兽攻击力上升250。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升250。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":250,\"description\":\"己方场上怪兽攻击力上升250。\"}]"
+  },
+  {
+    "name": "旧街巷连通现实与加速世界的路途",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_013",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/013.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "damageAllEnemyMonsters",
+        "value": 600,
+        "description": "对方全部怪兽守备力下降600，守备力变为0则破坏。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 350,
+        "description": "回复350LP。"
+      }
+    ],
+    "description": "对方全部怪兽守备力下降600，守备力变为0则破坏。\n回复350LP。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"damageAllEnemyMonsters\",\"value\":600,\"description\":\"对方全部怪兽守备力下降600，守备力变为0则破坏。\"},{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":350,\"description\":\"回复350LP。\"}]"
+  },
+  {
+    "name": "跨越世界线的羁绊",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_014",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/014.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 450,
+        "description": "己方场上怪兽攻击力上升450。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升450。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":450,\"description\":\"己方场上怪兽攻击力上升450。\"}]"
+  },
+  {
+    "name": "跨越虚幻病症的相守誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_015",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/015.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 550,
+        "description": "己方场上怪兽攻击力上升550。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升550。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":550,\"description\":\"己方场上怪兽攻击力上升550。\"}]"
+  },
+  {
+    "name": "蓝海起航的海贼盟约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_016",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/016.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 700,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 250,
+        "description": "己方场上怪兽攻击力上升250。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升250。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":700,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":250,\"description\":\"己方场上怪兽攻击力上升250。\"}]"
+  },
+  {
+    "name": "利刃与性命立下的逃亡誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_017",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/017.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 350,
+        "description": "己方场上怪兽攻击力上升350。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升350。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":350,\"description\":\"己方场上怪兽攻击力上升350。\"}]"
+  },
+  {
+    "name": "恋爱头脑战开幕",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_018",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/018.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1450,
+        "description": "回复1450LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 450,
+        "description": "己方场上全部怪兽攻击力上升450。"
+      },
+      {
+        "trigger": "manual",
+        "type": "cannotBeAttacked",
+        "value": 0,
+        "target": {
+          "owner": "self",
+          "zone": "monster",
+          "selector": "all"
+        },
+        "description": "己方全部怪兽本回合不会被战斗破坏。"
+      }
+    ],
+    "description": "回复1450LP。\n己方场上全部怪兽攻击力上升450。\n己方全部怪兽本回合不会被战斗破坏。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1450,\"description\":\"回复1450LP。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":450,\"description\":\"己方场上全部怪兽攻击力上升450。\"},{\"trigger\":\"manual\",\"type\":\"cannotBeAttacked\",\"value\":0,\"target\":{\"owner\":\"self\",\"zone\":\"monster\",\"selector\":\"all\"},\"description\":\"己方全部怪兽本回合不会被战斗破坏。\"}]"
+  },
+  {
+    "name": "落晖下的信约归途",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_019",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/019.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "lockAttack",
+        "value": 1,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "封锁对方攻击力最高的1只怪兽本回合的攻击。"
+      },
+      {
+        "trigger": "manual",
+        "type": "temporaryBanish",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "lowestAttack",
+          "count": 1
+        },
+        "description": "将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。"
+      }
+    ],
+    "description": "抽1张卡。\n封锁对方攻击力最高的1只怪兽本回合的攻击。\n将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"抽1张卡。\"},{\"trigger\":\"manual\",\"type\":\"lockAttack\",\"value\":1,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"封锁对方攻击力最高的1只怪兽本回合的攻击。\"},{\"trigger\":\"manual\",\"type\":\"temporaryBanish\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"lowestAttack\",\"count\":1},\"description\":\"将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。\"}]"
+  },
+  {
+    "name": "暮街火契",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_020",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/020.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 250,
+        "description": "己方场上怪兽攻击力上升250。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升250。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":250,\"description\":\"己方场上怪兽攻击力上升250。\"}]"
+  },
+  {
+    "name": "扭曲青春中寻得真心的相守誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_021",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/021.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 350,
+        "description": "己方场上怪兽攻击力上升350。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升350。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":350,\"description\":\"己方场上怪兽攻击力上升350。\"}]"
+  },
+  {
+    "name": "暖阳坡道上的再度相识",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_022",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/022.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1150,
+        "description": "回复1150LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只伙伴衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 400,
+        "description": "伙伴合奏：己方场上全部怪兽攻击力上升。"
+      }
+    ],
+    "description": "回复1150LP。\n特殊召唤1只伙伴衍生物。\n伙伴合奏：己方场上全部怪兽攻击力上升。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1150,\"description\":\"回复1150LP。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只伙伴衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":400,\"description\":\"伙伴合奏：己方场上全部怪兽攻击力上升。\"}]"
+  },
+  {
+    "name": "女友不止这么可爱",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_023",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/023.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1550,
+        "description": "回复1550LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 550,
+        "description": "己方场上全部怪兽攻击力上升550。"
+      },
+      {
+        "trigger": "manual",
+        "type": "cannotBeAttacked",
+        "value": 0,
+        "target": {
+          "owner": "self",
+          "zone": "monster",
+          "selector": "all"
+        },
+        "description": "己方全部怪兽本回合不会被战斗破坏。"
+      }
+    ],
+    "description": "回复1550LP。\n己方场上全部怪兽攻击力上升550。\n己方全部怪兽本回合不会被战斗破坏。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1550,\"description\":\"回复1550LP。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":550,\"description\":\"己方场上全部怪兽攻击力上升550。\"},{\"trigger\":\"manual\",\"type\":\"cannotBeAttacked\",\"value\":0,\"target\":{\"owner\":\"self\",\"zone\":\"monster\",\"selector\":\"all\"},\"description\":\"己方全部怪兽本回合不会被战斗破坏。\"}]"
+  },
+  {
+    "name": "青春期综合征的相守誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_024",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/024.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 250,
+        "description": "己方场上怪兽攻击力上升250。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升250。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":250,\"description\":\"己方场上怪兽攻击力上升250。\"}]"
+  },
+  {
+    "name": "青涩情愫",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_025",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/025.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1350,
+        "description": "回复1350LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 350,
+        "description": "己方场上全部怪兽攻击力上升350。"
+      },
+      {
+        "trigger": "manual",
+        "type": "cannotBeAttacked",
+        "value": 0,
+        "target": {
+          "owner": "self",
+          "zone": "monster",
+          "selector": "all"
+        },
+        "description": "己方全部怪兽本回合不会被战斗破坏。"
+      }
+    ],
+    "description": "回复1350LP。\n己方场上全部怪兽攻击力上升350。\n己方全部怪兽本回合不会被战斗破坏。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1350,\"description\":\"回复1350LP。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":350,\"description\":\"己方场上全部怪兽攻击力上升350。\"},{\"trigger\":\"manual\",\"type\":\"cannotBeAttacked\",\"value\":0,\"target\":{\"owner\":\"self\",\"zone\":\"monster\",\"selector\":\"all\"},\"description\":\"己方全部怪兽本回合不会被战斗破坏。\"}]"
+  },
+  {
+    "name": "数码邀约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_026",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/026.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1150,
+        "description": "回复1150LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 700,
+        "description": "特殊召唤1只伙伴衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 500,
+        "description": "伙伴合奏：己方场上全部怪兽攻击力上升。"
+      }
+    ],
+    "description": "回复1150LP。\n特殊召唤1只伙伴衍生物。\n伙伴合奏：己方场上全部怪兽攻击力上升。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1150,\"description\":\"回复1150LP。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":700,\"description\":\"特殊召唤1只伙伴衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":500,\"description\":\"伙伴合奏：己方场上全部怪兽攻击力上升。\"}]"
+  },
+  {
+    "name": "双剑盟约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_027",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/027.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 550,
+        "description": "己方场上怪兽攻击力上升550。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升550。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":550,\"description\":\"己方场上怪兽攻击力上升550。\"}]"
+  },
+  {
+    "name": "碎光偕行",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_028",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/028.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "directDamage",
+        "value": 450,
+        "description": "给予对方450点LP伤害。"
+      },
+      {
+        "trigger": "manual",
+        "type": "destroyTarget",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "选择并破坏对方1只怪兽。"
+      },
+      {
+        "trigger": "manual",
+        "type": "discardCards",
+        "value": 1,
+        "description": "对方随机丢弃1张手牌。"
+      }
+    ],
+    "description": "给予对方450点LP伤害。\n选择并破坏对方1只怪兽。\n对方随机丢弃1张手牌。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"directDamage\",\"value\":450,\"description\":\"给予对方450点LP伤害。\"},{\"trigger\":\"manual\",\"type\":\"destroyTarget\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"选择并破坏对方1只怪兽。\"},{\"trigger\":\"manual\",\"type\":\"discardCards\",\"value\":1,\"description\":\"对方随机丢弃1张手牌。\"}]"
+  },
+  {
+    "name": "托付一生的婚姻誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_029",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/029.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 350,
+        "description": "己方场上怪兽攻击力上升350。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升350。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":350,\"description\":\"己方场上怪兽攻击力上升350。\"}]"
+  },
+  {
+    "name": "嬉闹之中的倾心誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_030",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/030.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 450,
+        "description": "己方场上怪兽攻击力上升450。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升450。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":450,\"description\":\"己方场上怪兽攻击力上升450。\"}]"
+  },
+  {
+    "name": "戏语藏情",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_031",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/031.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1550,
+        "description": "回复1550LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 550,
+        "description": "己方场上全部怪兽攻击力上升550。"
+      },
+      {
+        "trigger": "manual",
+        "type": "cannotBeAttacked",
+        "value": 0,
+        "target": {
+          "owner": "self",
+          "zone": "monster",
+          "selector": "all"
+        },
+        "description": "己方全部怪兽本回合不会被战斗破坏。"
+      }
+    ],
+    "description": "回复1550LP。\n己方场上全部怪兽攻击力上升550。\n己方全部怪兽本回合不会被战斗破坏。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1550,\"description\":\"回复1550LP。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":550,\"description\":\"己方场上全部怪兽攻击力上升550。\"},{\"trigger\":\"manual\",\"type\":\"cannotBeAttacked\",\"value\":0,\"target\":{\"owner\":\"self\",\"zone\":\"monster\",\"selector\":\"all\"},\"description\":\"己方全部怪兽本回合不会被战斗破坏。\"}]"
+  },
+  {
+    "name": "狭路心契",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_032",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/032.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 250,
+        "description": "己方场上怪兽攻击力上升250。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升250。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":250,\"description\":\"己方场上怪兽攻击力上升250。\"}]"
+  },
+  {
+    "name": "邪眼心诺",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_033",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/033.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "directDamage",
+        "value": 600,
+        "description": "给予对方600点LP伤害。"
+      },
+      {
+        "trigger": "manual",
+        "type": "destroyTarget",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "选择并破坏对方1只怪兽。"
+      },
+      {
+        "trigger": "manual",
+        "type": "discardCards",
+        "value": 1,
+        "description": "对方随机丢弃1张手牌。"
+      }
+    ],
+    "description": "给予对方600点LP伤害。\n选择并破坏对方1只怪兽。\n对方随机丢弃1张手牌。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"directDamage\",\"value\":600,\"description\":\"给予对方600点LP伤害。\"},{\"trigger\":\"manual\",\"type\":\"destroyTarget\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"选择并破坏对方1只怪兽。\"},{\"trigger\":\"manual\",\"type\":\"discardCards\",\"value\":1,\"description\":\"对方随机丢弃1张手牌。\"}]"
+  },
+  {
+    "name": "墟野集结",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_034",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/034.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "directDamage",
+        "value": 750,
+        "description": "给予对方750点LP伤害。"
+      },
+      {
+        "trigger": "manual",
+        "type": "destroyTarget",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "选择并破坏对方1只怪兽。"
+      },
+      {
+        "trigger": "manual",
+        "type": "discardCards",
+        "value": 1,
+        "description": "对方随机丢弃1张手牌。"
+      }
+    ],
+    "description": "给予对方750点LP伤害。\n选择并破坏对方1只怪兽。\n对方随机丢弃1张手牌。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"directDamage\",\"value\":750,\"description\":\"给予对方750点LP伤害。\"},{\"trigger\":\"manual\",\"type\":\"destroyTarget\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"选择并破坏对方1只怪兽。\"},{\"trigger\":\"manual\",\"type\":\"discardCards\",\"value\":1,\"description\":\"对方随机丢弃1张手牌。\"}]"
+  },
+  {
+    "name": "雪径执手",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_035",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/035.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "returnToHand",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "将对方攻击力最高的1只怪兽返回手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "debuffAllEnemyAttack",
+        "value": 550,
+        "description": "对方场上全部怪兽攻击力下降550。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "抽1张卡。"
+      }
+    ],
+    "description": "将对方攻击力最高的1只怪兽返回手牌。\n对方场上全部怪兽攻击力下降550。\n抽1张卡。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"returnToHand\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"将对方攻击力最高的1只怪兽返回手牌。\"},{\"trigger\":\"manual\",\"type\":\"debuffAllEnemyAttack\",\"value\":550,\"description\":\"对方场上全部怪兽攻击力下降550。\"},{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"抽1张卡。\"}]"
+  },
+  {
+    "name": "血绊之契",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_036",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/036.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 250,
+        "description": "己方场上怪兽攻击力上升250。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升250。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":250,\"description\":\"己方场上怪兽攻击力上升250。\"}]"
+  },
+  {
+    "name": "熏香花朵凌然绽放",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_037",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/037.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1050,
+        "description": "回复1050LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只伙伴衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 400,
+        "description": "伙伴合奏：己方场上全部怪兽攻击力上升。"
+      }
+    ],
+    "description": "回复1050LP。\n特殊召唤1只伙伴衍生物。\n伙伴合奏：己方场上全部怪兽攻击力上升。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1050,\"description\":\"回复1050LP。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只伙伴衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":400,\"description\":\"伙伴合奏：己方场上全部怪兽攻击力上升。\"}]"
+  },
+  {
+    "name": "檐下和鸣",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_038",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/038.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "temporaryBanish",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "暂时除外对方攻击力最高的1只怪兽。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "抽1张卡。"
+      }
+    ],
+    "description": "暂时除外对方攻击力最高的1只怪兽。\n抽1张卡。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"temporaryBanish\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"暂时除外对方攻击力最高的1只怪兽。\"},{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"抽1张卡。\"}]"
+  },
+  {
+    "name": "檐下糯缘",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_039",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/039.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 700,
+        "description": "特殊召唤1只衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 550,
+        "description": "己方场上怪兽攻击力上升550。"
+      }
+    ],
+    "description": "特殊召唤1只衍生物。\n己方场上怪兽攻击力上升550。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":700,\"description\":\"特殊召唤1只衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":550,\"description\":\"己方场上怪兽攻击力上升550。\"}]"
+  },
+  {
+    "name": "以乐曲镌刻的青春邀约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_040",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/040.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 950,
+        "description": "回复950LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只伙伴衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 400,
+        "description": "伙伴合奏：己方场上全部怪兽攻击力上升。"
+      }
+    ],
+    "description": "回复950LP。\n特殊召唤1只伙伴衍生物。\n伙伴合奏：己方场上全部怪兽攻击力上升。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":950,\"description\":\"回复950LP。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只伙伴衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":400,\"description\":\"伙伴合奏：己方场上全部怪兽攻击力上升。\"}]"
+  },
+  {
+    "name": "以彭格列之焰起誓的家族盟约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_041",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/041.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 350,
+        "description": "己方场上怪兽攻击力上升350。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升350。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":350,\"description\":\"己方场上怪兽攻击力上升350。\"}]"
+  },
+  {
+    "name": "以青春执笔的相逢誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_042",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/042.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 450,
+        "description": "己方场上怪兽攻击力上升450。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升450。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":450,\"description\":\"己方场上怪兽攻击力上升450。\"}]"
+  },
+  {
+    "name": "樱下相邀",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_043",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/043.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "damageAllEnemyMonsters",
+        "value": 900,
+        "description": "对方全部怪兽守备力下降900，守备力变为0则破坏。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 550,
+        "description": "回复550LP。"
+      }
+    ],
+    "description": "对方全部怪兽守备力下降900，守备力变为0则破坏。\n回复550LP。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"damageAllEnemyMonsters\",\"value\":900,\"description\":\"对方全部怪兽守备力下降900，守备力变为0则破坏。\"},{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":550,\"description\":\"回复550LP。\"}]"
+  },
+  {
+    "name": "游缘升契",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_044",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/044.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 250,
+        "description": "己方场上怪兽攻击力上升250。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升250。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":250,\"description\":\"己方场上怪兽攻击力上升250。\"}]"
+  },
+  {
+    "name": "有限时光里缔结的永恒回忆",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_045",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/045.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 700,
+        "description": "特殊召唤1只衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 350,
+        "description": "己方场上怪兽攻击力上升350。"
+      }
+    ],
+    "description": "特殊召唤1只衍生物。\n己方场上怪兽攻击力上升350。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":700,\"description\":\"特殊召唤1只衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":350,\"description\":\"己方场上怪兽攻击力上升350。\"}]"
+  },
+  {
+    "name": "于黄昏废墟缔结的弑恶之誓",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_046",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/046.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "lockAttack",
+        "value": 1,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "封锁对方攻击力最高的1只怪兽本回合的攻击。"
+      },
+      {
+        "trigger": "manual",
+        "type": "temporaryBanish",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "lowestAttack",
+          "count": 1
+        },
+        "description": "将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。"
+      }
+    ],
+    "description": "抽1张卡。\n封锁对方攻击力最高的1只怪兽本回合的攻击。\n将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"抽1张卡。\"},{\"trigger\":\"manual\",\"type\":\"lockAttack\",\"value\":1,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"封锁对方攻击力最高的1只怪兽本回合的攻击。\"},{\"trigger\":\"manual\",\"type\":\"temporaryBanish\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"lowestAttack\",\"count\":1},\"description\":\"将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。\"}]"
+  },
+  {
+    "name": "于终末黄昏寻求新生的誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_047",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/047.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 550,
+        "description": "己方场上怪兽攻击力上升550。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升550。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":550,\"description\":\"己方场上怪兽攻击力上升550。\"}]"
+  },
+  {
+    "name": "御主与从者的盟约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_048",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/048.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 250,
+        "description": "己方场上怪兽攻击力上升250。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升250。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":250,\"description\":\"己方场上怪兽攻击力上升250。\"}]"
+  },
+  {
+    "name": "众伴同旅",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_049",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/049.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "damageAllEnemyMonsters",
+        "value": 600,
+        "description": "对方全部怪兽守备力下降600，守备力变为0则破坏。"
+      },
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 350,
+        "description": "回复350LP。"
+      }
+    ],
+    "description": "对方全部怪兽守备力下降600，守备力变为0则破坏。\n回复350LP。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"damageAllEnemyMonsters\",\"value\":600,\"description\":\"对方全部怪兽守备力下降600，守备力变为0则破坏。\"},{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":350,\"description\":\"回复350LP。\"}]"
+  },
+  {
+    "name": "追寻归属的羁绊誓约",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "id": "gallery_spell_050",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 2,
+    "image": "./assets/cards/imported/050.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "SR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 800,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 450,
+        "description": "己方场上怪兽攻击力上升450。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升450。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":800,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":450,\"description\":\"己方场上怪兽攻击力上升450。\"}]"
+  },
+  {
+    "name": "草野闲奏",
+    "type": "spell",
+    "rarity": "UR",
+    "level": 0,
+    "id": "gallery_spell_058",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 4,
+    "image": "./assets/cards/imported/069.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "UR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1150,
+        "description": "回复1150LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只伙伴衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 400,
+        "description": "伙伴合奏：己方场上全部怪兽攻击力上升。"
+      }
+    ],
+    "description": "回复1150LP。\n特殊召唤1只伙伴衍生物。\n伙伴合奏：己方场上全部怪兽攻击力上升。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1150,\"description\":\"回复1150LP。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只伙伴衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":400,\"description\":\"伙伴合奏：己方场上全部怪兽攻击力上升。\"}]"
+  },
+  {
+    "name": "街角的温柔日常",
+    "type": "spell",
+    "rarity": "UR",
+    "level": 0,
+    "id": "gallery_spell_061",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 4,
+    "image": "./assets/cards/imported/063.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "UR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "healPlayer",
+        "value": 1050,
+        "description": "回复1050LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只伙伴衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 400,
+        "description": "伙伴合奏：己方场上全部怪兽攻击力上升。"
+      }
+    ],
+    "description": "回复1050LP。\n特殊召唤1只伙伴衍生物。\n伙伴合奏：己方场上全部怪兽攻击力上升。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"healPlayer\",\"value\":1050,\"description\":\"回复1050LP。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只伙伴衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":400,\"description\":\"伙伴合奏：己方场上全部怪兽攻击力上升。\"}]"
+  },
+  {
+    "name": "涟声合奏",
+    "type": "spell",
+    "rarity": "UR",
+    "level": 0,
+    "id": "gallery_spell_062",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 4,
+    "image": "./assets/cards/imported/064.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "UR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "returnToHand",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "将对方攻击力最高的1只怪兽返回手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "debuffAllEnemyAttack",
+        "value": 450,
+        "description": "对方场上全部怪兽攻击力下降450。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "抽1张卡。"
+      }
+    ],
+    "description": "将对方攻击力最高的1只怪兽返回手牌。\n对方场上全部怪兽攻击力下降450。\n抽1张卡。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"returnToHand\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"将对方攻击力最高的1只怪兽返回手牌。\"},{\"trigger\":\"manual\",\"type\":\"debuffAllEnemyAttack\",\"value\":450,\"description\":\"对方场上全部怪兽攻击力下降450。\"},{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"抽1张卡。\"}]"
+  },
+  {
+    "name": "心印同框·八千年的契约",
+    "type": "spell",
+    "rarity": "UR",
+    "level": 0,
+    "id": "gallery_spell_066",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 4,
+    "image": "./assets/cards/imported/068.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "UR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 600,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 450,
+        "description": "己方场上怪兽攻击力上升450。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升450。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":600,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":450,\"description\":\"己方场上怪兽攻击力上升450。\"}]"
+  },
+  {
+    "name": "星轨重逢·胜利之誓",
+    "type": "spell",
+    "rarity": "UR",
+    "level": 0,
+    "id": "gallery_spell_067",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 4,
+    "image": "./assets/cards/imported/060.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "UR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "lockAttack",
+        "value": 1,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "封锁对方攻击力最高的1只怪兽本回合的攻击。"
+      },
+      {
+        "trigger": "manual",
+        "type": "temporaryBanish",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "lowestAttack",
+          "count": 1
+        },
+        "description": "将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。"
+      }
+    ],
+    "description": "抽1张卡。\n封锁对方攻击力最高的1只怪兽本回合的攻击。\n将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"抽1张卡。\"},{\"trigger\":\"manual\",\"type\":\"lockAttack\",\"value\":1,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"封锁对方攻击力最高的1只怪兽本回合的攻击。\"},{\"trigger\":\"manual\",\"type\":\"temporaryBanish\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"lowestAttack\",\"count\":1},\"description\":\"将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。\"}]"
+  },
+  {
+    "name": "星界瞬刻",
+    "type": "spell",
+    "rarity": "UR",
+    "level": 0,
+    "id": "gallery_spell_068",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 4,
+    "image": "./assets/cards/imported/070.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "UR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "lockAttack",
+        "value": 1,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "封锁对方攻击力最高的1只怪兽本回合的攻击。"
+      },
+      {
+        "trigger": "manual",
+        "type": "temporaryBanish",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "lowestAttack",
+          "count": 1
+        },
+        "description": "将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。"
+      }
+    ],
+    "description": "抽1张卡。\n封锁对方攻击力最高的1只怪兽本回合的攻击。\n将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"抽1张卡。\"},{\"trigger\":\"manual\",\"type\":\"lockAttack\",\"value\":1,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"封锁对方攻击力最高的1只怪兽本回合的攻击。\"},{\"trigger\":\"manual\",\"type\":\"temporaryBanish\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"lowestAttack\",\"count\":1},\"description\":\"将对方攻击力最低的1只怪兽暂时除外，回合结束时返回。\"}]"
+  },
+  {
+    "name": "异世残绪",
+    "type": "spell",
+    "rarity": "UR",
+    "level": 0,
+    "id": "gallery_spell_069",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 4,
+    "image": "./assets/cards/imported/071.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "UR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 700,
+        "description": "特殊召唤1只衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 350,
+        "description": "己方场上怪兽攻击力上升350。"
+      }
+    ],
+    "description": "特殊召唤1只衍生物。\n己方场上怪兽攻击力上升350。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":700,\"description\":\"特殊召唤1只衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":350,\"description\":\"己方场上怪兽攻击力上升350。\"}]"
+  },
+  {
+    "name": "樱时之契·和服共舞",
+    "type": "spell",
+    "rarity": "UR",
+    "level": 0,
+    "id": "gallery_spell_070",
+    "series": "nightcord",
+    "attribute": "none",
+    "attack": 0,
+    "defense": 0,
+    "cost": 4,
+    "image": "./assets/cards/imported/072.jpg",
+    "tags": [
+      "gallery",
+      "spell",
+      "UR"
+    ],
+    "enabled": true,
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "searchDeck",
+        "value": 0,
+        "target": {
+          "filters": {
+            "type": "monster"
+          }
+        },
+        "description": "从卡组检索1只怪兽加入手牌。"
+      },
+      {
+        "trigger": "manual",
+        "type": "tokenSummon",
+        "value": 700,
+        "description": "特殊召唤1只誓约衍生物。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 450,
+        "description": "己方场上怪兽攻击力上升450。"
+      }
+    ],
+    "description": "从卡组检索1只怪兽加入手牌。\n特殊召唤1只誓约衍生物。\n己方场上怪兽攻击力上升450。",
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"searchDeck\",\"value\":0,\"target\":{\"filters\":{\"type\":\"monster\"}},\"description\":\"从卡组检索1只怪兽加入手牌。\"},{\"trigger\":\"manual\",\"type\":\"tokenSummon\",\"value\":700,\"description\":\"特殊召唤1只誓约衍生物。\"},{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":450,\"description\":\"己方场上怪兽攻击力上升450。\"}]"
+  },
+  {
+    "id": "source_monster_001",
+    "name": "真冬",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "water",
+    "level": 3,
+    "attack": 1250,
+    "defense": 1350,
+    "rarity": "R",
+    "cost": 0,
+    "race": "spellcaster",
+    "image": "./assets/cards/complete/source_monster_001.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 250,
+        "description": "召唤成功时：自身攻击力上升250。"
+      }
+    ],
+    "description": "召唤成功时：自身攻击力上升250。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "R",
+      "unique-1"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 45
+    },
+    "lore": "源自原始卡图《真冬.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":250,\"description\":\"召唤成功时：自身攻击力上升250。\"}]"
+  },
+  {
+    "id": "source_monster_002",
+    "name": "白羽静梦",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 4,
+    "attack": 1340,
+    "defense": 1450,
+    "rarity": "R",
+    "cost": 0,
+    "race": "warrior",
+    "image": "./assets/cards/complete/source_monster_002.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 270,
+        "description": "召唤成功时：自身守备力上升270。"
+      }
+    ],
+    "description": "召唤成功时：自身守备力上升270。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "R",
+      "unique-2"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 46
+    },
+    "lore": "源自原始卡图《2EC2D8F78A52459FBF5E2F886DA80EE8.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":270,\"description\":\"召唤成功时：自身守备力上升270。\"}]"
+  },
+  {
+    "id": "source_monster_003",
+    "name": "祥子",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "light",
+    "level": 4,
+    "attack": 1430,
+    "defense": 1550,
+    "rarity": "R",
+    "cost": 0,
+    "race": "fairy",
+    "image": "./assets/cards/complete/source_monster_003.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 250,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "lowestAttack",
+          "count": 1
+        },
+        "description": "召唤成功时：对方攻击力最高的怪兽攻击力下降250。"
+      }
+    ],
+    "description": "召唤成功时：对方攻击力最高的怪兽攻击力下降250。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "R",
+      "unique-3"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 47
+    },
+    "lore": "源自原始卡图《祥子.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":250,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"lowestAttack\",\"count\":1},\"description\":\"召唤成功时：对方攻击力最高的怪兽攻击力下降250。\"}]"
+  },
+  {
+    "id": "source_monster_004",
+    "name": "蕾塞·雨夜引魂",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "dark",
+    "level": 5,
+    "attack": 2445,
+    "defense": 2025,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "fiend",
+    "image": "./assets/cards/complete/source_monster_004.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1100,
+        "description": "召唤成功时：恢复1100LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "targetProtect",
+        "value": 0,
+        "description": "1回合1次：本回合不成为对方效果对象。"
+      }
+    ],
+    "description": "召唤成功时：恢复1100LP。\n1回合1次：本回合不成为对方效果对象。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-4"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 48
+    },
+    "lore": "源自原始卡图《2FBAB8BA00B513659F6A751E4C9973D1.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1100,\"description\":\"召唤成功时：恢复1100LP。\"},{\"trigger\":\"manual\",\"type\":\"targetProtect\",\"value\":0,\"description\":\"1回合1次：本回合不成为对方效果对象。\"}]"
+  },
+  {
+    "id": "source_monster_005",
+    "name": "绯线誓约·青叶",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 5,
+    "attack": 2175,
+    "defense": 2125,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "dragon",
+    "image": "./assets/cards/complete/source_monster_005.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "召唤成功时：抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffSelfAttack",
+        "value": 390,
+        "description": "1回合1次：自身攻击力再上升390。"
+      }
+    ],
+    "description": "召唤成功时：抽1张卡。\n1回合1次：自身攻击力再上升390。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-5"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 49
+    },
+    "lore": "源自原始卡图《30B07C9EC5AF838E9C56F7B7DD9CE32F.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1,\"description\":\"召唤成功时：抽1张卡。\"},{\"trigger\":\"manual\",\"type\":\"buffSelfAttack\",\"value\":390,\"description\":\"1回合1次：自身攻击力再上升390。\"}]"
+  },
+  {
+    "id": "source_monster_006",
+    "name": "绯线誓约·棕羽",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "earth",
+    "level": 5,
+    "attack": 2265,
+    "defense": 2225,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "psychic",
+    "image": "./assets/cards/complete/source_monster_006.jpg",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "conditionalBuff",
+        "value": 600,
+        "description": "1回合1次：根据己方后场状态提升自身攻击力或守备力600。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "被破坏时：抽1张卡。"
+      }
+    ],
+    "description": "1回合1次：根据己方后场状态提升自身攻击力或守备力600。\n被破坏时：抽1张卡。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-6"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 50
+    },
+    "lore": "源自原始卡图《55B36C8B2F51158925660FA041276B90.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"conditionalBuff\",\"value\":600,\"description\":\"1回合1次：根据己方后场状态提升自身攻击力或守备力600。\"},{\"trigger\":\"onDestroyed\",\"type\":\"drawCards\",\"value\":1,\"description\":\"被破坏时：抽1张卡。\"}]"
+  },
+  {
+    "id": "source_monster_007",
+    "name": "绯线誓约·金瞳",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "water",
+    "level": 5,
+    "attack": 2355,
+    "defense": 2025,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "spellcaster",
+    "image": "./assets/cards/complete/source_monster_007.jpg",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "discardToDisableAttack",
+        "value": 1,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "lowestAttack",
+          "count": 1
+        },
+        "description": "1回合1次：舍弃1张手牌，使对方1只怪兽本回合不能攻击。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 880,
+        "description": "被破坏时：恢复880LP。"
+      }
+    ],
+    "description": "1回合1次：舍弃1张手牌，使对方1只怪兽本回合不能攻击。\n被破坏时：恢复880LP。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-7"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 51
+    },
+    "lore": "源自原始卡图《F932DED255F60A233A5727BB55A77714.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"discardToDisableAttack\",\"value\":1,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"lowestAttack\",\"count\":1},\"description\":\"1回合1次：舍弃1张手牌，使对方1只怪兽本回合不能攻击。\"},{\"trigger\":\"onDestroyed\",\"type\":\"healPlayer\",\"value\":880,\"description\":\"被破坏时：恢复880LP。\"}]"
+  },
+  {
+    "id": "source_monster_008",
+    "name": "两面宿傩·狱纹",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 6,
+    "attack": 2570,
+    "defense": 2250,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "warrior",
+    "image": "./assets/cards/complete/source_monster_008.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 950,
+        "description": "召唤成功时：给予对方950点伤害。"
+      },
+      {
+        "trigger": "manual",
+        "type": "targetProtect",
+        "value": 0,
+        "description": "1回合1次：本回合不成为对方效果对象。"
+      }
+    ],
+    "description": "召唤成功时：给予对方950点伤害。\n1回合1次：本回合不成为对方效果对象。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-8"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 52
+    },
+    "lore": "源自原始卡图《4FA8E2A5E8F3BBD68EF7187AA4F0F927.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":950,\"description\":\"召唤成功时：给予对方950点伤害。\"},{\"trigger\":\"manual\",\"type\":\"targetProtect\",\"value\":0,\"description\":\"1回合1次：本回合不成为对方效果对象。\"}]"
+  },
+  {
+    "id": "source_monster_009",
+    "name": "五条悟·苍瞳",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "light",
+    "level": 6,
+    "attack": 2300,
+    "defense": 2350,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "fairy",
+    "image": "./assets/cards/complete/source_monster_009.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 720,
+        "description": "召唤成功时：自身攻击力上升720。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffSelfAttack",
+        "value": 390,
+        "description": "1回合1次：自身攻击力再上升390。"
+      }
+    ],
+    "description": "召唤成功时：自身攻击力上升720。\n1回合1次：自身攻击力再上升390。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-9"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 53
+    },
+    "lore": "源自原始卡图《B25E3F6A81B98412D0E005D7FDF5F06D.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":720,\"description\":\"召唤成功时：自身攻击力上升720。\"},{\"trigger\":\"manual\",\"type\":\"buffSelfAttack\",\"value\":390,\"description\":\"1回合1次：自身攻击力再上升390。\"}]"
+  },
+  {
+    "id": "source_monster_010",
+    "name": "五条悟·无下限",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "dark",
+    "level": 6,
+    "attack": 2390,
+    "defense": 2150,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "fiend",
+    "image": "./assets/cards/complete/source_monster_010.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 780,
+        "description": "召唤成功时：自身守备力上升780。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "被破坏时：抽1张卡。"
+      }
+    ],
+    "description": "召唤成功时：自身守备力上升780。\n被破坏时：抽1张卡。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-10"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 54
+    },
+    "lore": "源自原始卡图《DBBEB50C7B2AF71DD38F76D7E80EFDD5.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":780,\"description\":\"召唤成功时：自身守备力上升780。\"},{\"trigger\":\"onDestroyed\",\"type\":\"drawCards\",\"value\":1,\"description\":\"被破坏时：抽1张卡。\"}]"
+  },
+  {
+    "id": "source_monster_011",
+    "name": "五条悟·苍天觉醒",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 8,
+    "attack": 2730,
+    "defense": 2500,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "dragon",
+    "image": "./assets/cards/complete/source_monster_011.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 600,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "lowestAttack",
+          "count": 1
+        },
+        "description": "召唤成功时：对方攻击力最高的怪兽攻击力下降600。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1000,
+        "description": "被破坏时：恢复1000LP。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 500,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降500。"
+      }
+    ],
+    "description": "召唤成功时：对方攻击力最高的怪兽攻击力下降600。\n被破坏时：恢复1000LP。\n高级召唤成功时：对方全部怪兽攻击力下降500。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-11"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 55
+    },
+    "lore": "源自原始卡图《196BCD56CD1047F3D16087352C385661.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":600,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"lowestAttack\",\"count\":1},\"description\":\"召唤成功时：对方攻击力最高的怪兽攻击力下降600。\"},{\"trigger\":\"onDestroyed\",\"type\":\"healPlayer\",\"value\":1000,\"description\":\"被破坏时：恢复1000LP。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":500,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降500。\"}]"
+  },
+  {
+    "id": "source_monster_012",
+    "name": "两面宿傩·伏魔御厨子",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "earth",
+    "level": 8,
+    "attack": 2820,
+    "defense": 2600,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "psychic",
+    "image": "./assets/cards/complete/source_monster_012.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1100,
+        "description": "召唤成功时：恢复1100LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "targetProtect",
+        "value": 0,
+        "description": "1回合1次：本回合不成为对方效果对象。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 520,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降520。"
+      }
+    ],
+    "description": "召唤成功时：恢复1100LP。\n1回合1次：本回合不成为对方效果对象。\n高级召唤成功时：对方全部怪兽攻击力下降520。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-12"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 56
+    },
+    "lore": "源自原始卡图《38EC61DEF1338450BE6EEE6E8C1C1A7D.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1100,\"description\":\"召唤成功时：恢复1100LP。\"},{\"trigger\":\"manual\",\"type\":\"targetProtect\",\"value\":0,\"description\":\"1回合1次：本回合不成为对方效果对象。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":520,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降520。\"}]"
+  },
+  {
+    "id": "source_monster_013",
+    "name": "五条悟·虚式茈",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "water",
+    "level": 8,
+    "attack": 2550,
+    "defense": 2400,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "spellcaster",
+    "image": "./assets/cards/complete/source_monster_013.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1,
+        "description": "召唤成功时：抽1张卡。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffSelfAttack",
+        "value": 390,
+        "description": "1回合1次：自身攻击力再上升390。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 540,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降540。"
+      }
+    ],
+    "description": "召唤成功时：抽1张卡。\n1回合1次：自身攻击力再上升390。\n高级召唤成功时：对方全部怪兽攻击力下降540。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-13"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 57
+    },
+    "lore": "源自原始卡图《4B58C805A0A7834F845D60C4D0CF2D52.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1,\"description\":\"召唤成功时：抽1张卡。\"},{\"trigger\":\"manual\",\"type\":\"buffSelfAttack\",\"value\":390,\"description\":\"1回合1次：自身攻击力再上升390。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":540,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降540。\"}]"
+  },
+  {
+    "id": "source_monster_014",
+    "name": "宿傩·炎矢",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 8,
+    "attack": 2640,
+    "defense": 2500,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "warrior",
+    "image": "./assets/cards/complete/source_monster_014.jpg",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "conditionalBuff",
+        "value": 600,
+        "description": "1回合1次：根据己方后场状态提升自身攻击力或守备力600。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "被破坏时：抽1张卡。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 560,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降560。"
+      }
+    ],
+    "description": "1回合1次：根据己方后场状态提升自身攻击力或守备力600。\n被破坏时：抽1张卡。\n高级召唤成功时：对方全部怪兽攻击力下降560。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-14"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 58
+    },
+    "lore": "源自原始卡图《80CF40F691B5D3CC02F8839A1F9C4323.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"conditionalBuff\",\"value\":600,\"description\":\"1回合1次：根据己方后场状态提升自身攻击力或守备力600。\"},{\"trigger\":\"onDestroyed\",\"type\":\"drawCards\",\"value\":1,\"description\":\"被破坏时：抽1张卡。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":560,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降560。\"}]"
+  },
+  {
+    "id": "source_monster_015",
+    "name": "五条悟·无量空处",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "light",
+    "level": 8,
+    "attack": 2730,
+    "defense": 2600,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "fairy",
+    "image": "./assets/cards/complete/source_monster_015.jpg",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "discardToDisableAttack",
+        "value": 1,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "lowestAttack",
+          "count": 1
+        },
+        "description": "1回合1次：舍弃1张手牌，使对方1只怪兽本回合不能攻击。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1120,
+        "description": "被破坏时：恢复1120LP。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 580,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降580。"
+      }
+    ],
+    "description": "1回合1次：舍弃1张手牌，使对方1只怪兽本回合不能攻击。\n被破坏时：恢复1120LP。\n高级召唤成功时：对方全部怪兽攻击力下降580。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-15"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 59
+    },
+    "lore": "源自原始卡图《83AEAFD50D1D2EAE388DB2AAB4E2BE07.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"discardToDisableAttack\",\"value\":1,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"lowestAttack\",\"count\":1},\"description\":\"1回合1次：舍弃1张手牌，使对方1只怪兽本回合不能攻击。\"},{\"trigger\":\"onDestroyed\",\"type\":\"healPlayer\",\"value\":1120,\"description\":\"被破坏时：恢复1120LP。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":580,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降580。\"}]"
+  },
+  {
+    "id": "source_monster_016",
+    "name": "五条悟·天上天下",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "dark",
+    "level": 8,
+    "attack": 2820,
+    "defense": 2400,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "fiend",
+    "image": "./assets/cards/complete/source_monster_016.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 950,
+        "description": "召唤成功时：给予对方950点伤害。"
+      },
+      {
+        "trigger": "manual",
+        "type": "targetProtect",
+        "value": 0,
+        "description": "1回合1次：本回合不成为对方效果对象。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 600,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降600。"
+      }
+    ],
+    "description": "召唤成功时：给予对方950点伤害。\n1回合1次：本回合不成为对方效果对象。\n高级召唤成功时：对方全部怪兽攻击力下降600。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-16"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 60
+    },
+    "lore": "源自原始卡图《A57D6D2AE4AD06B8EEF629CEC8461AD5.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":950,\"description\":\"召唤成功时：给予对方950点伤害。\"},{\"trigger\":\"manual\",\"type\":\"targetProtect\",\"value\":0,\"description\":\"1回合1次：本回合不成为对方效果对象。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":600,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降600。\"}]"
+  },
+  {
+    "id": "source_monster_017",
+    "name": "咒灵武者·赤影",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "fire",
+    "level": 8,
+    "attack": 2550,
+    "defense": 2500,
+    "rarity": "SSR",
+    "cost": 0,
+    "race": "dragon",
+    "image": "./assets/cards/complete/source_monster_017.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 840,
+        "description": "召唤成功时：自身攻击力上升840。"
+      },
+      {
+        "trigger": "manual",
+        "type": "buffSelfAttack",
+        "value": 390,
+        "description": "1回合1次：自身攻击力再上升390。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 620,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降620。"
+      }
+    ],
+    "description": "召唤成功时：自身攻击力上升840。\n1回合1次：自身攻击力再上升390。\n高级召唤成功时：对方全部怪兽攻击力下降620。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "SSR",
+      "unique-17"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 61
+    },
+    "lore": "源自原始卡图《C4FC3980048C599F5A3F3DF6C5BDA58E.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":840,\"description\":\"召唤成功时：自身攻击力上升840。\"},{\"trigger\":\"manual\",\"type\":\"buffSelfAttack\",\"value\":390,\"description\":\"1回合1次：自身攻击力再上升390。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":620,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降620。\"}]"
+  },
+  {
+    "id": "source_monster_018",
+    "name": "白绫神姬·天仪",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "earth",
+    "level": 10,
+    "attack": 4020,
+    "defense": 3780,
+    "rarity": "UR",
+    "cost": 0,
+    "race": "psychic",
+    "image": "./assets/cards/complete/source_monster_018.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1240,
+        "description": "召唤成功时：自身守备力上升1240。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "drawCards",
+        "value": 1,
+        "description": "被破坏时：抽1张卡。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 640,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降640。"
+      }
+    ],
+    "description": "召唤成功时：自身守备力上升1240。\n被破坏时：抽1张卡。\n高级召唤成功时：对方全部怪兽攻击力下降640。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "UR",
+      "unique-18"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 62
+    },
+    "lore": "源自原始卡图《BE95BE37198D56064087E1C81D4DA33A.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":1240,\"description\":\"召唤成功时：自身守备力上升1240。\"},{\"trigger\":\"onDestroyed\",\"type\":\"drawCards\",\"value\":1,\"description\":\"被破坏时：抽1张卡。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":640,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降640。\"}]"
+  },
+  {
+    "id": "source_monster_019",
+    "name": "黄昏孤影·终焉",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "water",
+    "level": 10,
+    "attack": 4110,
+    "defense": 3580,
+    "rarity": "UR",
+    "cost": 0,
+    "race": "spellcaster",
+    "image": "./assets/cards/complete/source_monster_019.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 900,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "lowestAttack",
+          "count": 1
+        },
+        "description": "召唤成功时：对方攻击力最高的怪兽攻击力下降900。"
+      },
+      {
+        "trigger": "onDestroyed",
+        "type": "healPlayer",
+        "value": 1240,
+        "description": "被破坏时：恢复1240LP。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 660,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降660。"
+      }
+    ],
+    "description": "召唤成功时：对方攻击力最高的怪兽攻击力下降900。\n被破坏时：恢复1240LP。\n高级召唤成功时：对方全部怪兽攻击力下降660。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "UR",
+      "unique-19"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 63
+    },
+    "lore": "源自原始卡图《CAE305E96597AF4D96A131CA3BD37667.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":900,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"lowestAttack\",\"count\":1},\"description\":\"召唤成功时：对方攻击力最高的怪兽攻击力下降900。\"},{\"trigger\":\"onDestroyed\",\"type\":\"healPlayer\",\"value\":1240,\"description\":\"被破坏时：恢复1240LP。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":660,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降660。\"}]"
+  },
+  {
+    "id": "source_monster_020",
+    "name": "虚拟歌姬·初音未来",
+    "series": "source_archive",
+    "type": "monster",
+    "attribute": "wind",
+    "level": 10,
+    "attack": 4200,
+    "defense": 3680,
+    "rarity": "UR",
+    "cost": 0,
+    "race": "warrior",
+    "image": "./assets/cards/complete/source_monster_020.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1400,
+        "description": "召唤成功时：恢复1400LP。"
+      },
+      {
+        "trigger": "manual",
+        "type": "targetProtect",
+        "value": 0,
+        "description": "1回合1次：本回合不成为对方效果对象。"
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 680,
+        "description": "高级召唤成功时：对方全部怪兽攻击力下降680。"
+      }
+    ],
+    "description": "召唤成功时：恢复1400LP。\n1回合1次：本回合不成为对方效果对象。\n高级召唤成功时：对方全部怪兽攻击力下降680。",
+    "tags": [
+      "source-archive",
+      "monster",
+      "UR",
+      "unique-20"
+    ],
+    "aiHints": {
+      "role": "attacker",
+      "priority": 64
+    },
+    "lore": "源自原始卡图《ED1A2666F3F2900BDB316584BA7DCCAD.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1400,\"description\":\"召唤成功时：恢复1400LP。\"},{\"trigger\":\"manual\",\"type\":\"targetProtect\",\"value\":0,\"description\":\"1回合1次：本回合不成为对方效果对象。\"},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":680,\"description\":\"高级召唤成功时：对方全部怪兽攻击力下降680。\"}]"
+  },
+  {
+    "id": "source_spell_021",
+    "name": "冰原双天鹅的星咏",
+    "series": "source_archive",
+    "type": "spell",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "image": "./assets/cards/complete/source_spell_021.jpg",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "temporaryBanish",
+        "value": 0,
+        "target": {
+          "owner": "opponent",
+          "zone": "monster",
+          "selector": "highestAttack",
+          "count": 1
+        },
+        "description": "选择对方1只怪兽暂时除外；结束阶段返回。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "若除外成功，抽1张卡。"
+      }
+    ],
+    "description": "选择对方1只怪兽暂时除外；结束阶段返回。\n若除外成功，抽1张卡。",
+    "tags": [
+      "source-archive",
+      "spell",
+      "UR",
+      "unique-21"
+    ],
+    "aiHints": {
+      "role": "support",
+      "priority": 65
+    },
+    "lore": "源自原始卡图《冰原双天鹅的星咏.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"temporaryBanish\",\"value\":0,\"target\":{\"owner\":\"opponent\",\"zone\":\"monster\",\"selector\":\"highestAttack\",\"count\":1},\"description\":\"选择对方1只怪兽暂时除外；结束阶段返回。\"},{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"若除外成功，抽1张卡。\"}]"
+  },
+  {
+    "id": "source_spell_022",
+    "name": "杖与剑的契约",
+    "series": "source_archive",
+    "type": "spell",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "UR",
+    "cost": 4,
+    "image": "./assets/cards/complete/source_spell_022.jpg",
+    "effects": [
+      {
+        "trigger": "manual",
+        "type": "buffAllAlliesAttack",
+        "value": 900,
+        "description": "己方全部怪兽攻击力上升900。"
+      },
+      {
+        "trigger": "manual",
+        "type": "drawCards",
+        "value": 1,
+        "description": "若己方同时存在战士族与魔法师族怪兽，再抽1张卡。"
+      }
+    ],
+    "description": "己方全部怪兽攻击力上升900。\n若己方同时存在战士族与魔法师族怪兽，再抽1张卡。",
+    "tags": [
+      "source-archive",
+      "spell",
+      "UR",
+      "unique-22"
+    ],
+    "aiHints": {
+      "role": "support",
+      "priority": 66
+    },
+    "lore": "源自原始卡图《杖与剑的契约.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"manual\",\"type\":\"buffAllAlliesAttack\",\"value\":900,\"description\":\"己方全部怪兽攻击力上升900。\"},{\"trigger\":\"manual\",\"type\":\"drawCards\",\"value\":1,\"description\":\"若己方同时存在战士族与魔法师族怪兽，再抽1张卡。\"}]"
+  },
+  {
+    "id": "source_trap_023",
+    "name": "翡翠峰嶺の雲霧結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_023.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "cannotAttack",
+        "value": 23,
+        "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-23"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 67
+    },
+    "lore": "源自原始卡图《翡翠峰嶺の雲霧結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"cannotAttack\",\"value\":23,\"description\":\"对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。\"}]"
+  },
+  {
+    "id": "source_trap_024",
+    "name": "富士桜花の結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_024.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reflectDamage",
+        "value": 24,
+        "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-24"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 68
+    },
+    "lore": "源自原始卡图《富士桜花の結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reflectDamage\",\"value\":24,\"description\":\"对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。\"}]"
+  },
+  {
+    "id": "source_trap_025",
+    "name": "花燈橋の夜桜結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_025.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "destroyAttacker",
+        "value": 25,
+        "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-25"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 69
+    },
+    "lore": "源自原始卡图《花燈橋の夜桜結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"destroyAttacker\",\"value\":25,\"description\":\"对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_026",
+    "name": "花園涼亭の星夜結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_026.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reduceDamage",
+        "value": 1525,
+        "description": "对方攻击宣言时发动：本次战斗伤害减少1525。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：本次战斗伤害减少1525。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-26"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 70
+    },
+    "lore": "源自原始卡图《花園涼亭の星夜結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reduceDamage\",\"value\":1525,\"description\":\"对方攻击宣言时发动：本次战斗伤害减少1525。\"}]"
+  },
+  {
+    "id": "source_trap_027",
+    "name": "神社参道の花灯結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_027.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "returnToHand",
+        "value": 27,
+        "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-27"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 71
+    },
+    "lore": "源自原始卡图《神社参道の花灯結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"returnToHand\",\"value\":27,\"description\":\"对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_028",
+    "name": "水鏡湖畔の桜花結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_028.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "cannotAttack",
+        "value": 28,
+        "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-28"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 72
+    },
+    "lore": "源自原始卡图《水鏡湖畔の桜花結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"cannotAttack\",\"value\":28,\"description\":\"对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。\"}]"
+  },
+  {
+    "id": "source_trap_029",
+    "name": "索道黄昏の都市結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_029.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reflectDamage",
+        "value": 29,
+        "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-29"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 73
+    },
+    "lore": "源自原始卡图《索道黄昏の都市結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reflectDamage\",\"value\":29,\"description\":\"对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。\"}]"
+  },
+  {
+    "id": "source_trap_030",
+    "name": "夕映雪嶺の紅葉結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_030.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "destroyAttacker",
+        "value": 30,
+        "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-30"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 74
+    },
+    "lore": "源自原始卡图《夕映雪嶺の紅葉結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"destroyAttacker\",\"value\":30,\"description\":\"对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_031",
+    "name": "雪林曙光の結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_031.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reduceDamage",
+        "value": 1700,
+        "description": "对方攻击宣言时发动：本次战斗伤害减少1700。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：本次战斗伤害减少1700。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-31"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 75
+    },
+    "lore": "源自原始卡图《雪林曙光の結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reduceDamage\",\"value\":1700,\"description\":\"对方攻击宣言时发动：本次战斗伤害减少1700。\"}]"
+  },
+  {
+    "id": "source_trap_032",
+    "name": "雪嶺白嶽の凍結結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_032.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "returnToHand",
+        "value": 32,
+        "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-32"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 76
+    },
+    "lore": "源自原始卡图《雪嶺白嶽の凍結結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"returnToHand\",\"value\":32,\"description\":\"对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_033",
+    "name": "夜桜涼亭の花吹雪結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_033.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "cannotAttack",
+        "value": 33,
+        "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-33"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 77
+    },
+    "lore": "源自原始卡图《夜桜涼亭の花吹雪結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"cannotAttack\",\"value\":33,\"description\":\"对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。\"}]"
+  },
+  {
+    "id": "source_trap_034",
+    "name": "夜桜神籠の灯火結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_034.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reflectDamage",
+        "value": 34,
+        "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-34"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 78
+    },
+    "lore": "源自原始卡图《夜桜神籠の灯火結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reflectDamage\",\"value\":34,\"description\":\"对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。\"}]"
+  },
+  {
+    "id": "source_trap_035",
+    "name": "桜花結界の春霞神殿",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_035.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "destroyAttacker",
+        "value": 35,
+        "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-35"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 79
+    },
+    "lore": "源自原始卡图《桜花結界の春霞神殿.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"destroyAttacker\",\"value\":35,\"description\":\"对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_036",
+    "name": "月光水鏡の幽玄結界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_036.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reduceDamage",
+        "value": 1875,
+        "description": "对方攻击宣言时发动：本次战斗伤害减少1875。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：本次战斗伤害减少1875。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SR",
+      "unique-36"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 80
+    },
+    "lore": "源自原始卡图《月光水鏡の幽玄結界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reduceDamage\",\"value\":1875,\"description\":\"对方攻击宣言时发动：本次战斗伤害减少1875。\"}]"
+  },
+  {
+    "id": "source_trap_037",
+    "name": "百体地蔵的净罪之光",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_037.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "returnToHand",
+        "value": 37,
+        "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-37"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 81
+    },
+    "lore": "源自原始卡图《百体地蔵的净罪之光.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"returnToHand\",\"value\":37,\"description\":\"对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_038",
+    "name": "本町通尽头的灵峰",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_038.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "cannotAttack",
+        "value": 38,
+        "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-38"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 82
+    },
+    "lore": "源自原始卡图《本町通尽头的灵峰.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"cannotAttack\",\"value\":38,\"description\":\"对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。\"}]"
+  },
+  {
+    "id": "source_trap_039",
+    "name": "翠林水车的清流结界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_039.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reflectDamage",
+        "value": 39,
+        "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-39"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 83
+    },
+    "lore": "源自原始卡图《翠林水车的清流结界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reflectDamage\",\"value\":39,\"description\":\"对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。\"}]"
+  },
+  {
+    "id": "source_trap_040",
+    "name": "稻荷神域的千本鸟居",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_040.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "destroyAttacker",
+        "value": 40,
+        "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-40"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 84
+    },
+    "lore": "源自原始卡图《稻荷神域的千本鸟居.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"destroyAttacker\",\"value\":40,\"description\":\"对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_041",
+    "name": "富士灵峰的湖畔守望",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_041.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reduceDamage",
+        "value": 2500,
+        "description": "对方攻击宣言时发动：本次战斗伤害减少2500。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：本次战斗伤害减少2500。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-41"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 85
+    },
+    "lore": "源自原始卡图《富士灵峰的湖畔守望.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reduceDamage\",\"value\":2500,\"description\":\"对方攻击宣言时发动：本次战斗伤害减少2500。\"}]"
+  },
+  {
+    "id": "source_trap_042",
+    "name": "古都暗影的五重封印",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_042.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "returnToHand",
+        "value": 42,
+        "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-42"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 86
+    },
+    "lore": "源自原始卡图《古都暗影的五重封印.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"returnToHand\",\"value\":42,\"description\":\"对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_043",
+    "name": "古都塔影的黄昏小路",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_043.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "cannotAttack",
+        "value": 43,
+        "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-43"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 87
+    },
+    "lore": "源自原始卡图《古都塔影的黄昏小路.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"cannotAttack\",\"value\":43,\"description\":\"对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。\"}]"
+  },
+  {
+    "id": "source_trap_044",
+    "name": "古寺五重的黄昏钟声",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_044.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reflectDamage",
+        "value": 44,
+        "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-44"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 88
+    },
+    "lore": "源自原始卡图《古寺五重的黄昏钟声.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reflectDamage\",\"value\":44,\"description\":\"对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。\"}]"
+  },
+  {
+    "id": "source_trap_045",
+    "name": "海中鸟居的神域结界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_045.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "destroyAttacker",
+        "value": 45,
+        "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-45"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 89
+    },
+    "lore": "源自原始卡图《海中鸟居的神域结界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"destroyAttacker\",\"value\":45,\"description\":\"对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_046",
+    "name": "水田镜天的云映结界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_046.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reduceDamage",
+        "value": 2675,
+        "description": "对方攻击宣言时发动：本次战斗伤害减少2675。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：本次战斗伤害减少2675。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-46"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 90
+    },
+    "lore": "源自原始卡图《水田镜天的云映结界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reduceDamage\",\"value\":2675,\"description\":\"对方攻击宣言时发动：本次战斗伤害减少2675。\"}]"
+  },
+  {
+    "id": "source_trap_047",
+    "name": "雪灵峰下的驿站",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_047.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "returnToHand",
+        "value": 47,
+        "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-47"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 91
+    },
+    "lore": "源自原始卡图《雪灵峰下的驿站.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"returnToHand\",\"value\":47,\"description\":\"对方攻击宣言时发动：攻击怪兽返回持有者手牌，那次攻击无效。\"}]"
+  },
+  {
+    "id": "source_trap_048",
+    "name": "岩间清瀑的结界之水",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_048.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "cannotAttack",
+        "value": 48,
+        "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-48"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 92
+    },
+    "lore": "源自原始卡图《岩间清瀑的结界之水.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"cannotAttack\",\"value\":48,\"description\":\"对方攻击宣言时发动：那次攻击无效，对方怪兽本回合不能继续攻击。\"}]"
+  },
+  {
+    "id": "source_trap_049",
+    "name": "夜樱灯笼的幽冥引路",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_049.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "reflectDamage",
+        "value": 49,
+        "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-49"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 93
+    },
+    "lore": "源自原始卡图《夜樱灯笼的幽冥引路.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"reflectDamage\",\"value\":49,\"description\":\"对方攻击宣言时发动：那次攻击无效，并将攻击力数值作为伤害反弹。\"}]"
+  },
+  {
+    "id": "source_trap_050",
+    "name": "樱花光隙的幻惑结界",
+    "series": "source_archive",
+    "type": "trap",
+    "attribute": "none",
+    "level": 0,
+    "attack": 0,
+    "defense": 0,
+    "rarity": "SSR",
+    "cost": 0,
+    "image": "./assets/cards/complete/source_trap_050.jpg",
+    "effects": [
+      {
+        "trigger": "onAttacked",
+        "type": "destroyAttacker",
+        "value": 50,
+        "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。"
+      }
+    ],
+    "description": "对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。",
+    "tags": [
+      "source-archive",
+      "trap",
+      "SSR",
+      "unique-50"
+    ],
+    "aiHints": {
+      "role": "control",
+      "priority": 94
+    },
+    "lore": "源自原始卡图《樱花光隙的幻惑结界.jpg》的正式可玩卡牌。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onAttacked\",\"type\":\"destroyAttacker\",\"value\":50,\"description\":\"对方攻击宣言时发动：破坏攻击怪兽，那次攻击无效。\"}]"
+  }
+]

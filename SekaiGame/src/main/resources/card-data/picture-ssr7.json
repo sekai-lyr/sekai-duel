@@ -1,0 +1,1654 @@
+[
+  {
+    "id": "picture_ssr7_001",
+    "name": "白庭双生·终幕",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2250,
+    "defense": 1900,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_001.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 720
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 260
+      }
+    ],
+    "description": "登场：发动「白庭双生·终幕」的专属效果。攻击力2250 / 守备力1900。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":720},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":260}]"
+  },
+  {
+    "id": "picture_ssr7_002",
+    "name": "粉樱星轨·弥音",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2323,
+    "defense": 1961,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_002.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 737
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 271
+      }
+    ],
+    "description": "登场：发动「粉樱星轨·弥音」的专属效果。攻击力2323 / 守备力1961。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":737},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":271}]"
+  },
+  {
+    "id": "picture_ssr7_003",
+    "name": "浊心斯卡蒂·深海夜宴",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2396,
+    "defense": 2022,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_003.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 754
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 282
+      }
+    ],
+    "description": "登场：发动「浊心斯卡蒂·深海夜宴」的专属效果。攻击力2396 / 守备力2022。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":754},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":282}]"
+  },
+  {
+    "id": "picture_ssr7_004",
+    "name": "曦火圣女·晨祷",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2469,
+    "defense": 2083,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_004.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 771
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 293
+      }
+    ],
+    "description": "登场：发动「曦火圣女·晨祷」的专属效果。攻击力2469 / 守备力2083。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":771},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":293}]"
+  },
+  {
+    "id": "picture_ssr7_005",
+    "name": "初音未来·星海镜音",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2542,
+    "defense": 2144,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_005.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 788
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 304
+      }
+    ],
+    "description": "登场：发动「初音未来·星海镜音」的专属效果。攻击力2542 / 守备力2144。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":788},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":304}]"
+  },
+  {
+    "id": "picture_ssr7_006",
+    "name": "浊心斯卡蒂·霜海凛冬",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2615,
+    "defense": 2205,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_006.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 315
+      }
+    ],
+    "description": "登场：发动「浊心斯卡蒂·霜海凛冬」的专属效果。攻击力2615 / 守备力2205。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":315}]"
+  },
+  {
+    "id": "picture_ssr7_007",
+    "name": "史尔特尔·熔核烈歌",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2688,
+    "defense": 2266,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_007.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 822
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 326
+      }
+    ],
+    "description": "登场：发动「史尔特尔·熔核烈歌」的专属效果。攻击力2688 / 守备力2266。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":822},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":326}]"
+  },
+  {
+    "id": "picture_ssr7_008",
+    "name": "焰星旅者·可莉",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2761,
+    "defense": 2327,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_008.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 839
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 337
+      }
+    ],
+    "description": "登场：发动「焰星旅者·可莉」的专属效果。攻击力2761 / 守备力2327。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":839},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":337}]"
+  },
+  {
+    "id": "picture_ssr7_009",
+    "name": "青月人偶师·幽兰",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2834,
+    "defense": 2388,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_009.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 856
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 348
+      }
+    ],
+    "description": "登场：发动「青月人偶师·幽兰」的专属效果。攻击力2834 / 守备力2388。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":856},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":348}]"
+  },
+  {
+    "id": "picture_ssr7_010",
+    "name": "御坂美琴·超电磁炮",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2287,
+    "defense": 2449,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_010.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 873
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 359
+      }
+    ],
+    "description": "登场：发动「御坂美琴·超电磁炮」的专属效果。攻击力2287 / 守备力2449。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":873},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":359}]"
+  },
+  {
+    "id": "picture_ssr7_011",
+    "name": "冰冠龙姬·苍鳞",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2360,
+    "defense": 2510,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_011.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 890
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 370
+      }
+    ],
+    "description": "登场：发动「冰冠龙姬·苍鳞」的专属效果。攻击力2360 / 守备力2510。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":890},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":370}]"
+  },
+  {
+    "id": "picture_ssr7_012",
+    "name": "斯卡蒂·黑潮双刃",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2433,
+    "defense": 1921,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_012.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 381
+      }
+    ],
+    "description": "登场：发动「斯卡蒂·黑潮双刃」的专属效果。攻击力2433 / 守备力1921。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":381}]"
+  },
+  {
+    "id": "picture_ssr7_013",
+    "name": "能天使·红莲铳火",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2506,
+    "defense": 1982,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_013.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 924
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 392
+      }
+    ],
+    "description": "登场：发动「能天使·红莲铳火」的专属效果。攻击力2506 / 守备力1982。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":924},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":392}]"
+  },
+  {
+    "id": "picture_ssr7_014",
+    "name": "阿米娅·星屑天幕",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2579,
+    "defense": 2043,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_014.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 941
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 403
+      }
+    ],
+    "description": "登场：发动「阿米娅·星屑天幕」的专属效果。攻击力2579 / 守备力2043。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":941},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":403}]"
+  },
+  {
+    "id": "picture_ssr7_015",
+    "name": "煌·炎锯镇岳",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2652,
+    "defense": 2104,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_015.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 958
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 414
+      }
+    ],
+    "description": "登场：发动「煌·炎锯镇岳」的专属效果。攻击力2652 / 守备力2104。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":958},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":414}]"
+  },
+  {
+    "id": "picture_ssr7_016",
+    "name": "W·赤痕爆破",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2725,
+    "defense": 2165,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_016.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 975
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 425
+      }
+    ],
+    "description": "登场：发动「W·赤痕爆破」的专属效果。攻击力2725 / 守备力2165。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":975},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":425}]"
+  },
+  {
+    "id": "picture_ssr7_017",
+    "name": "鸦羽祭司·夜祷",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2798,
+    "defense": 2226,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_017.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 992
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 436
+      }
+    ],
+    "description": "登场：发动「鸦羽祭司·夜祷」的专属效果。攻击力2798 / 守备力2226。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":992},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":436}]"
+  },
+  {
+    "id": "picture_ssr7_018",
+    "name": "天狼机巧·苍牙",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2251,
+    "defense": 2287,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_018.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 447
+      }
+    ],
+    "description": "登场：发动「天狼机巧·苍牙」的专属效果。攻击力2251 / 守备力2287。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":447}]"
+  },
+  {
+    "id": "picture_ssr7_019",
+    "name": "圣辉裁决·金律",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2324,
+    "defense": 2348,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_019.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1026
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 458
+      }
+    ],
+    "description": "登场：发动「圣辉裁决·金律」的专属效果。攻击力2324 / 守备力2348。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":1026},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":458}]"
+  },
+  {
+    "id": "picture_ssr7_020",
+    "name": "六花联奏·虹誓",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2397,
+    "defense": 2409,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_020.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1043
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 469
+      }
+    ],
+    "description": "登场：发动「六花联奏·虹誓」的专属效果。攻击力2397 / 守备力2409。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":1043},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":469}]"
+  },
+  {
+    "id": "picture_ssr7_021",
+    "name": "金羽龙骑·破晓",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2470,
+    "defense": 2470,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_021.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 1060
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 480
+      }
+    ],
+    "description": "登场：发动「金羽龙骑·破晓」的专属效果。攻击力2470 / 守备力2470。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":1060},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":480}]"
+  },
+  {
+    "id": "picture_ssr7_022",
+    "name": "白狐剑巫·千刃",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2543,
+    "defense": 2531,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_022.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1077
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 491
+      }
+    ],
+    "description": "登场：发动「白狐剑巫·千刃」的专属效果。攻击力2543 / 守备力2531。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1077},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":491}]"
+  },
+  {
+    "id": "picture_ssr7_023",
+    "name": "蓝发静默者·阶梯",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2616,
+    "defense": 1942,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_023.png",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1094
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 502
+      }
+    ],
+    "description": "登场：发动「蓝发静默者·阶梯」的专属效果。攻击力2616 / 守备力1942。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":1094},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":502}]"
+  },
+  {
+    "id": "picture_ssr7_024",
+    "name": "金庭歌者·夜曲",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2689,
+    "defense": 2003,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_024.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 513
+      }
+    ],
+    "description": "登场：发动「金庭歌者·夜曲」的专属效果。攻击力2689 / 守备力2003。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":513}]"
+  },
+  {
+    "id": "picture_ssr7_025",
+    "name": "煌·炎翼焚天",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2762,
+    "defense": 2064,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_025.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1128
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 524
+      }
+    ],
+    "description": "登场：发动「煌·炎翼焚天」的专属效果。攻击力2762 / 守备力2064。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":1128},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":524}]"
+  },
+  {
+    "id": "picture_ssr7_026",
+    "name": "千早爱音·粉色和弦",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2835,
+    "defense": 2125,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_026.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1145
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 535
+      }
+    ],
+    "description": "登场：发动「千早爱音·粉色和弦」的专属效果。攻击力2835 / 守备力2125。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":1145},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":535}]"
+  },
+  {
+    "id": "picture_ssr7_027",
+    "name": "绯月傀儡师·血契",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2288,
+    "defense": 2186,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_027.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 1162
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 546
+      }
+    ],
+    "description": "登场：发动「绯月傀儡师·血契」的专属效果。攻击力2288 / 守备力2186。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":1162},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":546}]"
+  },
+  {
+    "id": "picture_ssr7_028",
+    "name": "红棘圣女·荆冠",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2361,
+    "defense": 2247,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_028.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1179
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 557
+      }
+    ],
+    "description": "登场：发动「红棘圣女·荆冠」的专属效果。攻击力2361 / 守备力2247。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1179},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":557}]"
+  },
+  {
+    "id": "picture_ssr7_029",
+    "name": "红棘圣女·终花",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2434,
+    "defense": 2308,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_029.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1196
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 568
+      }
+    ],
+    "description": "登场：发动「红棘圣女·终花」的专属效果。攻击力2434 / 守备力2308。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":1196},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":568}]"
+  },
+  {
+    "id": "picture_ssr7_030",
+    "name": "初音未来·晴空舞台",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2507,
+    "defense": 2369,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_030.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 579
+      }
+    ],
+    "description": "登场：发动「初音未来·晴空舞台」的专属效果。攻击力2507 / 守备力2369。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":579}]"
+  },
+  {
+    "id": "picture_ssr7_031",
+    "name": "高松灯·迷途之声",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2580,
+    "defense": 2430,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_031.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1230
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 590
+      }
+    ],
+    "description": "登场：发动「高松灯·迷途之声」的专属效果。攻击力2580 / 守备力2430。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":1230},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":590}]"
+  },
+  {
+    "id": "picture_ssr7_032",
+    "name": "若叶睦·沉默枷锁",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2653,
+    "defense": 2491,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_032.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1247
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 601
+      }
+    ],
+    "description": "登场：发动「若叶睦·沉默枷锁」的专属效果。攻击力2653 / 守备力2491。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":1247},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":601}]"
+  },
+  {
+    "id": "picture_ssr7_033",
+    "name": "若叶睦·Mortis镜像",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2726,
+    "defense": 1902,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_033.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 1264
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 612
+      }
+    ],
+    "description": "登场：发动「若叶睦·Mortis镜像」的专属效果。攻击力2726 / 守备力1902。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":1264},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":612}]"
+  },
+  {
+    "id": "picture_ssr7_034",
+    "name": "灶门炭治郎·水之呼吸",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2799,
+    "defense": 1963,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_034.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1281
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 623
+      }
+    ],
+    "description": "登场：发动「灶门炭治郎·水之呼吸」的专属效果。攻击力2799 / 守备力1963。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1281},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":623}]"
+  },
+  {
+    "id": "picture_ssr7_035",
+    "name": "八幡海铃·守望若叶",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2252,
+    "defense": 2024,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_035.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1298
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 634
+      }
+    ],
+    "description": "登场：发动「八幡海铃·守望若叶」的专属效果。攻击力2252 / 守备力2024。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":1298},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":634}]"
+  },
+  {
+    "id": "picture_ssr7_036",
+    "name": "要乐奈·自由即兴",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2325,
+    "defense": 2085,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_036.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 645
+      }
+    ],
+    "description": "登场：发动「要乐奈·自由即兴」的专属效果。攻击力2325 / 守备力2085。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":645}]"
+  },
+  {
+    "id": "picture_ssr7_037",
+    "name": "蝴蝶忍·蝶舞清影",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2398,
+    "defense": 2146,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_037.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1332
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 656
+      }
+    ],
+    "description": "登场：发动「蝴蝶忍·蝶舞清影」的专属效果。攻击力2398 / 守备力2146。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":1332},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":656}]"
+  },
+  {
+    "id": "picture_ssr7_038",
+    "name": "若叶睦·Mortis礼装",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2471,
+    "defense": 2207,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_038.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1349
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 667
+      }
+    ],
+    "description": "登场：发动「若叶睦·Mortis礼装」的专属效果。攻击力2471 / 守备力2207。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":1349},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":667}]"
+  },
+  {
+    "id": "picture_ssr7_039",
+    "name": "椎名立希·疾走节拍",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2544,
+    "defense": 2268,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_039.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 1366
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 678
+      }
+    ],
+    "description": "登场：发动「椎名立希·疾走节拍」的专属效果。攻击力2544 / 守备力2268。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":1366},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":678}]"
+  },
+  {
+    "id": "picture_ssr7_040",
+    "name": "长崎爽世·温柔低音",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2617,
+    "defense": 2329,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_040.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1383
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 689
+      }
+    ],
+    "description": "登场：发动「长崎爽世·温柔低音」的专属效果。攻击力2617 / 守备力2329。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1383},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":689}]"
+  },
+  {
+    "id": "picture_ssr7_041",
+    "name": "椎名立希·不器用的真心",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2690,
+    "defense": 2390,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_041.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1400
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 700
+      }
+    ],
+    "description": "登场：发动「椎名立希·不器用的真心」的专属效果。攻击力2690 / 守备力2390。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":1400},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":700}]"
+  },
+  {
+    "id": "picture_ssr7_042",
+    "name": "千早爱音·迷茫独白",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2763,
+    "defense": 2451,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_042.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 711
+      }
+    ],
+    "description": "登场：发动「千早爱音·迷茫独白」的专属效果。攻击力2763 / 守备力2451。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":711}]"
+  },
+  {
+    "id": "picture_ssr7_043",
+    "name": "丰川祥子·雪夜独奏",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2836,
+    "defense": 2512,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_043.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1434
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 722
+      }
+    ],
+    "description": "登场：发动「丰川祥子·雪夜独奏」的专属效果。攻击力2836 / 守备力2512。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":1434},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":722}]"
+  },
+  {
+    "id": "picture_ssr7_044",
+    "name": "井芹仁菜·无刺之歌",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2289,
+    "defense": 1923,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_044.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1451
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 733
+      }
+    ],
+    "description": "登场：发动「井芹仁菜·无刺之歌」的专属效果。攻击力2289 / 守备力1923。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":1451},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":733}]"
+  },
+  {
+    "id": "picture_ssr7_045",
+    "name": "若叶睦·月下礼装",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "earth",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2362,
+    "defense": 1984,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_045.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 1468
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 744
+      }
+    ],
+    "description": "登场：发动「若叶睦·月下礼装」的专属效果。攻击力2362 / 守备力1984。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":1468},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":744}]"
+  },
+  {
+    "id": "picture_ssr7_046",
+    "name": "丰川祥子·雨中独奏",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2435,
+    "defense": 2045,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_046.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1485
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 755
+      }
+    ],
+    "description": "登场：发动「丰川祥子·雨中独奏」的专属效果。攻击力2435 / 守备力2045。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1485},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":755}]"
+  },
+  {
+    "id": "picture_ssr7_047",
+    "name": "阿米娅·赤轮剑影",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "wind",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2508,
+    "defense": 2106,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_047.jpeg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1502
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 766
+      }
+    ],
+    "description": "登场：发动「阿米娅·赤轮剑影」的专属效果。攻击力2508 / 守备力2106。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":1502},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":766}]"
+  },
+  {
+    "id": "picture_ssr7_048",
+    "name": "丰川祥子·烛火键盘",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2581,
+    "defense": 2167,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_048.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 777
+      }
+    ],
+    "description": "登场：发动「丰川祥子·烛火键盘」的专属效果。攻击力2581 / 守备力2167。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":777}]"
+  },
+  {
+    "id": "picture_ssr7_049",
+    "name": "八幡海铃·暗潮低音",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2654,
+    "defense": 2228,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_049.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1536
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 788
+      }
+    ],
+    "description": "登场：发动「八幡海铃·暗潮低音」的专属效果。攻击力2654 / 守备力2228。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":1536},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":788}]"
+  },
+  {
+    "id": "picture_ssr7_050",
+    "name": "若叶睦·微笑假面",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2727,
+    "defense": 2289,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_050.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1553
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 799
+      }
+    ],
+    "description": "登场：发动「若叶睦·微笑假面」的专属效果。攻击力2727 / 守备力2289。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":1553},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":799}]"
+  },
+  {
+    "id": "picture_ssr7_051",
+    "name": "椎名立希·疾风鼓点",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2800,
+    "defense": 2350,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_051.jpg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 1570
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 810
+      }
+    ],
+    "description": "登场：发动「椎名立希·疾风鼓点」的专属效果。攻击力2800 / 守备力2350。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":1570},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":810}]"
+  },
+  {
+    "id": "picture_ssr7_052",
+    "name": "雪之下雪乃·春雪",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2253,
+    "defense": 2411,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_052.jpeg",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1587
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 821
+      }
+    ],
+    "description": "登场：发动「雪之下雪乃·春雪」的专属效果。攻击力2253 / 守备力2411。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1587},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":821}]"
+  },
+  {
+    "id": "picture_ssr7_053",
+    "name": "阿米娅·红线残响",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2326,
+    "defense": 2472,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_053.png",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1604
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 832
+      }
+    ],
+    "description": "登场：发动「阿米娅·红线残响」的专属效果。攻击力2326 / 守备力2472。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":1604},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":832}]"
+  },
+  {
+    "id": "picture_ssr7_054",
+    "name": "初音未来·水镜",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2399,
+    "defense": 2533,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_054.png",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "drawCards",
+        "value": 1
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 843
+      }
+    ],
+    "description": "登场：发动「初音未来·水镜」的专属效果。攻击力2399 / 守备力2533。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"drawCards\",\"value\":1},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":843}]"
+  },
+  {
+    "id": "picture_ssr7_055",
+    "name": "初音未来·花海共鸣",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2472,
+    "defense": 1944,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_055.png",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfAttack",
+        "value": 1638
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 854
+      }
+    ],
+    "description": "登场：发动「初音未来·花海共鸣」的专属效果。攻击力2472 / 守备力1944。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfAttack\",\"value\":1638},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":854}]"
+  },
+  {
+    "id": "picture_ssr7_056",
+    "name": "初音未来·南瓜夜曲",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "water",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2545,
+    "defense": 2005,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_056.png",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "buffSelfDefense",
+        "value": 1655
+      },
+      {
+        "trigger": "onSummon",
+        "type": "conditionalBuff",
+        "value": 865
+      }
+    ],
+    "description": "登场：发动「初音未来·南瓜夜曲」的专属效果。攻击力2545 / 守备力2005。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"buffSelfDefense\",\"value\":1655},{\"trigger\":\"onSummon\",\"type\":\"conditionalBuff\",\"value\":865}]"
+  },
+  {
+    "id": "picture_ssr7_057",
+    "name": "初音未来·春日花冠",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "dark",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2618,
+    "defense": 2066,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_057.png",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "directDamage",
+        "value": 1672
+      },
+      {
+        "trigger": "onSummon",
+        "type": "debuffAllEnemyAttack",
+        "value": 876
+      }
+    ],
+    "description": "登场：发动「初音未来·春日花冠」的专属效果。攻击力2618 / 守备力2066。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"directDamage\",\"value\":1672},{\"trigger\":\"onSummon\",\"type\":\"debuffAllEnemyAttack\",\"value\":876}]"
+  },
+  {
+    "id": "picture_ssr7_058",
+    "name": "初音未来·星月花嫁",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "fire",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2691,
+    "defense": 2127,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_058.png",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "healPlayer",
+        "value": 1689
+      },
+      {
+        "trigger": "onSummon",
+        "type": "buffAllAlliesAttack",
+        "value": 887
+      }
+    ],
+    "description": "登场：发动「初音未来·星月花嫁」的专属效果。攻击力2691 / 守备力2127。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"healPlayer\",\"value\":1689},{\"trigger\":\"onSummon\",\"type\":\"buffAllAlliesAttack\",\"value\":887}]"
+  },
+  {
+    "id": "picture_ssr7_059",
+    "name": "阿米娅·苍银天穹",
+    "series": "picture_ssr7",
+    "type": "monster",
+    "attribute": "light",
+    "race": "spellcaster",
+    "level": 7,
+    "attack": 2764,
+    "defense": 2188,
+    "rarity": "SSR",
+    "image": "./assets/cards/picture-ssr7/picture_ssr7_059.png",
+    "effects": [
+      {
+        "trigger": "onSummon",
+        "type": "debuffEnemyAttack",
+        "value": 1706
+      },
+      {
+        "trigger": "onSummon",
+        "type": "damageAllEnemyMonsters",
+        "value": 898
+      }
+    ],
+    "description": "登场：发动「阿米娅·苍银天穹」的专属效果。攻击力2764 / 守备力2188。",
+    "enabled": true,
+    "effectsJson": "[{\"trigger\":\"onSummon\",\"type\":\"debuffEnemyAttack\",\"value\":1706},{\"trigger\":\"onSummon\",\"type\":\"damageAllEnemyMonsters\",\"value\":898}]"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "id": "picture_ex_001",
+    "name": "不灭钻石的意志",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_001.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_002",
+    "name": "黄金之风的觉悟",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_002.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_003",
+    "name": "乔斯达血脉",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_003.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_004",
+    "name": "幻影之血",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_004.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_005",
+    "name": "群星的传承",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_005.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_006",
+    "name": "乔乔福音·定助与透龙",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "dark",
+    "image": "./assets/cards/picture-extension/picture_006.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_007",
+    "name": "石之海的羁绊",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_007.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_008",
+    "name": "飙马野郎",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_008.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_009",
+    "name": "战斗潮流",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_009.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_010",
+    "name": "星尘远征",
+    "type": "spell",
+    "rarity": "SR",
+    "level": 0,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_010.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_011",
+    "name": "空条承太郎·白金之星",
+    "type": "monster",
+    "rarity": "SSR",
+    "level": 5,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_011.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_012",
+    "name": "吉良吉影·杀手皇后",
+    "type": "monster",
+    "rarity": "SSR",
+    "level": 5,
+    "attribute": "dark",
+    "image": "./assets/cards/picture-extension/picture_012.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_013",
+    "name": "迪亚哥·THE WORLD",
+    "type": "monster",
+    "rarity": "SSR",
+    "level": 5,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_013.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_014",
+    "name": "盖多·米斯达·性感手枪",
+    "type": "monster",
+    "rarity": "SSR",
+    "level": 5,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_014.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_015",
+    "name": "露西·钢铁蔷薇",
+    "type": "monster",
+    "rarity": "SSR",
+    "level": 8,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_015.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_016",
+    "name": "赫特·潘兹·奶油启动器",
+    "type": "monster",
+    "rarity": "SSR",
+    "level": 8,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_016.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_017",
+    "name": "迪亚哥·骇人恶兽",
+    "type": "monster",
+    "rarity": "SSR",
+    "level": 8,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_017.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_018",
+    "name": "法尼·瓦伦泰·爱之列车",
+    "type": "monster",
+    "rarity": "SSR",
+    "level": 8,
+    "attribute": "dark",
+    "image": "./assets/cards/picture-extension/picture_018.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_019",
+    "name": "灶门炭治郎·火之神神乐",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_019.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_020",
+    "name": "伊黑小芭内·蛇之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_020.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_021",
+    "name": "我妻善逸·霹雳一闪",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_021.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_022",
+    "name": "甘露寺蜜璃·恋之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_022.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_023",
+    "name": "悲鸣屿行冥·岩之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_023.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_024",
+    "name": "蝴蝶忍·蝶之舞",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_024.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_025",
+    "name": "富冈义勇·水之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_025.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_026",
+    "name": "不死川实弥·旋风斩",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_026.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_027",
+    "name": "灶门祢豆子·爆血",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_027.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_028",
+    "name": "时透无一郎·霞之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_028.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_029",
+    "name": "嘴平伊之助·兽之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_029.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_030",
+    "name": "炼狱杏寿郎·炎之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_030.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_031",
+    "name": "不死川实弥·风之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_031.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_032",
+    "name": "宇髓天元·音之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 4,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_032.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_033",
+    "name": "富冈义勇·水柱",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 5,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_033.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_034",
+    "name": "伊黑小芭内·蛇柱",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 5,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_034.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_035",
+    "name": "炼狱杏寿郎·炎柱",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 5,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_035.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_036",
+    "name": "时透无一郎·月下霞",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 5,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_036.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_037",
+    "name": "蝴蝶忍·紫藤毒",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 5,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_037.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_038",
+    "name": "甘露寺蜜璃·恋柱",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 5,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_038.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_039",
+    "name": "宇髓天元·谱面完成",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 5,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_039.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_040",
+    "name": "不死川实弥·稀血",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 5,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_040.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_041",
+    "name": "悲鸣屿行冥·南无阿弥陀佛",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 5,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_041.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_042",
+    "name": "猗窝座·破坏杀",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "dark",
+    "image": "./assets/cards/picture-extension/picture_042.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_043",
+    "name": "富冈义勇·水面斩",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_043.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_044",
+    "name": "继国缘一·日之呼吸",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_044.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_045",
+    "name": "甘露寺蜜璃·猫足恋风",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_045.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_046",
+    "name": "蝴蝶忍·蜈蚣之舞",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_046.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_047",
+    "name": "宇髓天元·双刀爆裂",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_047.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_048",
+    "name": "我妻善逸·火雷神",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_048.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_049",
+    "name": "时透无一郎·胧",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_049.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_050",
+    "name": "炼狱杏寿郎·奥义玖之型",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_050.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_051",
+    "name": "嘴平伊之助·空间感知",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_051.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_052",
+    "name": "悲鸣屿行冥·岩躯",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_052.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_053",
+    "name": "伊黑小芭内·月夜蛇行",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_053.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_054",
+    "name": "炼狱杏寿郎·炎心",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 6,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_054.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_055",
+    "name": "童磨·寒夜莲华",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "dark",
+    "image": "./assets/cards/picture-extension/picture_055.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_056",
+    "name": "猗窝座·罗针",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "dark",
+    "image": "./assets/cards/picture-extension/picture_056.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_057",
+    "name": "蝴蝶忍·蝶影毒刃",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_057.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_058",
+    "name": "不死川实弥·黑风烟岚",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_058.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_059",
+    "name": "嘴平伊之助·兽牙乱舞",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_059.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_060",
+    "name": "灶门炭治郎·水火轮转",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_060.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_061",
+    "name": "悲鸣屿行冥·石肤",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_061.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_062",
+    "name": "富冈义勇·生生流转",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "water",
+    "image": "./assets/cards/picture-extension/picture_062.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_063",
+    "name": "炼狱杏寿郎·炼狱",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_063.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_064",
+    "name": "甘露寺蜜璃·摇曳恋情",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "earth",
+    "image": "./assets/cards/picture-extension/picture_064.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_065",
+    "name": "鬼舞辻无惨·赤月",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "dark",
+    "image": "./assets/cards/picture-extension/picture_065.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_066",
+    "name": "时透无一郎·水月霞",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_066.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_067",
+    "name": "宇髓天元·爆音斩",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "fire",
+    "image": "./assets/cards/picture-extension/picture_067.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_068",
+    "name": "黑死牟·月虹",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "dark",
+    "image": "./assets/cards/picture-extension/picture_068.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_069",
+    "name": "伊黑小芭内·蜿蜒蛇行",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "wind",
+    "image": "./assets/cards/picture-extension/picture_069.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  },
+  {
+    "id": "picture_ex_070",
+    "name": "我妻善逸·雷霆万钧",
+    "type": "monster",
+    "rarity": "SR",
+    "level": 7,
+    "attribute": "light",
+    "image": "./assets/cards/picture-extension/picture_070.jpg",
+    "reviewStatus": "图片与角色名称已人工复核"
+  }
+]

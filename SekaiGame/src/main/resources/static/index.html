@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#070914">
+    <title>Sekai Game</title>
+    <link rel="stylesheet" href="css/style.css?v=1.7.19">
+</head>
+<body>
+<div id="auth-screen" class="auth-screen">
+    <div class="auth-panel">
+        <div class="auth-brand"><span class="brand-mark">✦</span><strong>Sekai Game</strong><small>NETWORK</small></div>
+        <div class="auth-tabs">
+            <button class="auth-tab active" data-auth-mode="login" type="button">登录</button>
+            <button class="auth-tab" data-auth-mode="register" type="button">注册</button>
+        </div>
+        <form id="auth-form" autocomplete="on">
+            <label class="auth-field"><span>用户名</span><input id="auth-username" name="username" autocomplete="username" required></label>
+            <label class="auth-field"><span>密码</span><input id="auth-password" type="password" name="password" autocomplete="current-password" required></label>
+            <label class="auth-field auth-nick-field hidden"><span>昵称</span><input id="auth-nickname" name="nickname"></label>
+            <p id="auth-error" class="validation-line"></p>
+            <button type="submit" class="primary-action auth-submit">确认</button>
+        </form>
+    </div>
+</div>
+
+<div id="app-shell" class="app-shell is-hidden">
+    <header class="topbar">
+        <button class="brand" id="brand-home" type="button" aria-label="返回首页">
+            <span class="brand-mark">✦</span>
+            <span><strong>Sekai Game</strong><small>NETWORK</small></span>
+        </button>
+        <div class="topbar-spacer"></div>
+        <div class="currency-chip"><span class="currency-icon coin"></span><strong id="coin-count">0</strong><small>决斗币</small></div>
+        <div class="currency-chip"><span class="currency-icon shard"></span><strong id="shard-count">0</strong><small>碎片</small></div>
+        <button class="profile-chip" data-route="settings" type="button"><span class="profile-avatar">D</span><span><strong id="profile-name">决斗者</strong><small id="profile-level">LV.1</small></span></button>
+    </header>
+
+    <aside class="sidebar" aria-label="主要导航">
+        <button data-route="home" class="nav-item active" type="button"><span class="nav-icon">⌂</span><span>首页</span></button>
+        <button data-route="shop" class="nav-item" type="button"><span class="nav-icon">✦</span><span>卡包</span></button>
+        <button data-route="collection" class="nav-item" type="button"><span class="nav-icon">▦</span><span>收藏</span></button>
+        <button data-route="decks" class="nav-item" type="button"><span class="nav-icon">▤</span><span>卡组</span></button>
+        <div class="nav-spacer"></div>
+        <button data-route="rules" class="nav-item" type="button"><span class="nav-icon">?</span><span>规则</span></button>
+        <button data-route="settings" class="nav-item" type="button"><span class="nav-icon">⚙</span><span>设置</span></button>
+    </aside>
+
+    <main id="screen-root" class="screen-root" aria-live="polite"></main>
+</div>
+
+<section class="battle-screen" id="battle-screen">
+    <div class="duel-backdrop"></div>
+    <div class="battlefield-center-glow"></div>
+    <div class="duel-particles" id="duel-particles"></div>
+    <header class="duel-header">
+        <button id="btn-battle-exit" class="duel-header-btn" type="button">退出决斗</button>
+        <div class="duel-title"><span>RANKED SIMULATION</span><strong>Sekai Game</strong></div>
+        <button id="log-toggle" class="duel-header-btn" type="button">战斗日志</button>
+    </header>
+    <section id="opponent-area" class="opponent-area"></section>
+    <section id="opponent-hand" class="opponent-hand" aria-label="对手手牌"></section>
+    <div class="phase-bar" id="phase-bar" style="display:none"></div>
+    <div class="deck-pile deck-pile-opponent" id="opponent-deck-pile" aria-label="对手牌库">
+        <div class="deck-card-back"><span>NC</span></div><strong id="opponent-deck-count">0</strong><small>DECK</small>
+    </div>
+    <div class="graveyard-pile graveyard-pile-opponent" id="opponent-graveyard-pile" aria-label="对手墓地">
+        <div class="graveyard-card-back"><span>GY</span></div><strong id="opponent-graveyard-count">0</strong><small>GY</small>
+    </div>
+    <section id="battlefield" class="battlefield"></section>
+    <div class="deck-pile deck-pile-player" id="player-deck-pile" aria-label="玩家牌库">
+        <div class="deck-card-back"><span>NC</span></div><strong id="player-deck-count">0</strong><small>DECK</small>
+    </div>
+    <div class="graveyard-pile graveyard-pile-player" id="player-graveyard-pile" aria-label="玩家墓地">
+        <div class="graveyard-card-back"><span>GY</span></div><strong id="player-graveyard-count">0</strong><small>GY</small>
+    </div>
+    <div class="draw-banner" id="draw-banner" aria-live="polite"><span id="draw-banner-label">DRAW</span><strong id="draw-banner-name"></strong></div>
+    <div class="center-controls">
+        <div class="turn-badge" id="turn-badge">等待开始</div>
+        <button id="btn-cancel-target" class="ctrl-btn danger" style="display:none" type="button">取消选择</button>
+        <button id="end-turn-button" class="ctrl-btn btn-end" disabled type="button">结束回合</button>
+    </div>
+    <section id="player-area" class="player-area"></section>
+    <div class="hand-tray" id="hand-tray">
+        <div class="hand-tray-label"><span>YOUR HAND</span><strong id="visible-hand-count">0</strong></div>
+        <section id="hand" class="hand"></section>
+    </div>
+    <div class="drag-help" id="drag-help">拖动或单击手牌出牌 · 点击可攻击怪兽后选择目标 · 阶段自动推进 · 右键查看详情</div>
+    <aside class="log-panel"><div class="log-header"><span>DUEL LOG</span><button id="log-collapse-inline" type="button" aria-label="收起日志">×</button></div><div class="log-body" id="log-body"></div></aside>
+</section>
+
+<div class="overlay" id="detail-overlay">
+    <div class="detail-panel duel-detail-panel">
+        <div id="detail-card-display"></div>
+        <div class="detail-info"><span class="eyebrow">CARD INFORMATION</span><div class="detail-name" id="detail-name"></div><div class="detail-type" id="detail-type"></div><div class="detail-desc" id="detail-desc"></div><button class="secondary-action detail-footer-close" data-detail-close type="button">关闭详情</button></div>
+        <button class="modal-close" id="detail-close" data-detail-close type="button" aria-label="关闭">×</button>
+    </div>
+</div>
+
+<div class="overlay" id="gameover-overlay">
+    <div class="gameover-panel">
+        <div class="gameover-icon" id="gameover-icon">VICTORY</div>
+        <h2 class="gameover-title" id="gameover-title"></h2>
+        <div class="gameover-text" id="gameover-text"></div>
+        <div class="gameover-reward" id="gameover-reward"></div>
+        <div class="modal-actions"><button class="secondary-action" id="btn-back-menu" type="button">返回大厅</button><button class="primary-action" id="btn-rematch" type="button">再次决斗</button></div>
+    </div>
+</div>
+
+<div id="modal-root" class="modal-root"></div>
+<div id="toast-root" class="toast-root" aria-live="polite"></div>
+<script>
+(function () {
+    if (location.protocol === "file:") {
+        document.body.innerHTML = `
+            <main style="min-height:100vh;display:grid;place-items:center;padding:32px;background:#070914;color:#f4f6ff;font-family:Arial,sans-serif">
+                <section style="max-width:620px;border:1px solid #303858;background:#0d1020;padding:32px">
+                    <h1 style="margin:0 0 14px">不能直接双击 index.html</h1>
+                    <p style="color:#aeb7d2;line-height:1.7">本项目使用 JavaScript ES Module。请双击项目中的 <strong>start.bat</strong>，或者在 IDEA Terminal 执行 <strong>npm start</strong>，再打开 http://127.0.0.1:8080。</p>
+                </section>
+            </main>`;
+        return;
+    }
+    const entry = document.createElement("script");
+    entry.type = "module";
+        entry.src = "./js/main.js?v=1.7.45";
+    document.body.appendChild(entry);
+})();
+</script>
+</body>
+</html>

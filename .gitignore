@@ -1,0 +1,40 @@
+HELP.md
+target/
+*.class
+*.jar
+!.mvn/wrapper/maven-wrapper.jar
+
+### IDE ###
+.idea/
+*.iml
+*.iws
+.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+### OS ###
+.DS_Store
+Thumbs.db
+desktop.ini
+
+### Secrets ###
+.env
+.env.local
+application-local.yml
+
+### Runtime ###
+logs/
+*.log
+
+### Godot ###
+.godot/
+*.tmp
+
+### Card assets (copyrighted, not included) ###
+src/main/resources/static/assets/
+*.jpg
+*.jpeg
+*.png
+*.webp

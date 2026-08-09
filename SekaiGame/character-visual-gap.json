@@ -1,0 +1,207 @@
+{
+  "total": 122,
+  "specific": 97,
+  "generic": 25,
+  "cards": [
+    {
+      "id": "picture_ex_080",
+      "name": "朝比奈真冬·雨夜狙击",
+      "rarity": "SR",
+      "series": "picture",
+      "attribute": "wind",
+      "style": "wind"
+    },
+    {
+      "id": "picture_ex_082",
+      "name": "花里实乃理·橙梦舞台",
+      "rarity": "SSR",
+      "series": "picture",
+      "attribute": "dark",
+      "style": "dark"
+    },
+    {
+      "id": "picture_ex_083",
+      "name": "草薙宁宁·海月幻梦",
+      "rarity": "SSR",
+      "series": "picture",
+      "attribute": "fire",
+      "style": "flame"
+    },
+    {
+      "id": "picture_ex_084",
+      "name": "日野森雫·青瓷流云",
+      "rarity": "SSR",
+      "series": "picture",
+      "attribute": "earth",
+      "style": "earth"
+    },
+    {
+      "id": "picture_ex_088",
+      "name": "日野森雫·蓝蔷薇",
+      "rarity": "SSR",
+      "series": "picture",
+      "attribute": "dark",
+      "style": "dark"
+    },
+    {
+      "id": "picture_ex_091",
+      "name": "椎名真昼·水墨午后",
+      "rarity": "SSR",
+      "series": "picture",
+      "attribute": "light",
+      "style": "light"
+    },
+    {
+      "id": "picture_ex_095",
+      "name": "喜多川海梦·海风浅笑",
+      "rarity": "SSR",
+      "series": "picture",
+      "attribute": "fire",
+      "style": "flame"
+    },
+    {
+      "id": "picture_ex_096",
+      "name": "有马加奈·坠空追风",
+      "rarity": "SSR",
+      "series": "picture",
+      "attribute": "earth",
+      "style": "earth"
+    },
+    {
+      "id": "picture_ex_097",
+      "name": "椎名真昼·素描沉思",
+      "rarity": "SSR",
+      "series": "picture",
+      "attribute": "light",
+      "style": "light"
+    },
+    {
+      "id": "picture_ex_099",
+      "name": "奥泽美咲·暖窗时光",
+      "rarity": "SSR",
+      "series": "picture",
+      "attribute": "water",
+      "style": "water"
+    },
+    {
+      "id": "picture_ex_104",
+      "name": "黑化阿尔托莉雅·暗夜血刃",
+      "rarity": "UR",
+      "series": "picture",
+      "attribute": "wind",
+      "style": "wind"
+    },
+    {
+      "id": "picture_ex_105",
+      "name": "黑化阿尔托莉雅·绯狱复仇",
+      "rarity": "UR",
+      "series": "picture",
+      "attribute": "water",
+      "style": "water"
+    },
+    {
+      "id": "picture_ex_106",
+      "name": "阿尔托莉雅·黄昏断罪",
+      "rarity": "UR",
+      "series": "picture",
+      "attribute": "dark",
+      "style": "dark"
+    },
+    {
+      "id": "water_007",
+      "name": "蓝絮猫女仆 凯伊",
+      "rarity": "R",
+      "series": "nightcord",
+      "attribute": "water",
+      "style": "water"
+    },
+    {
+      "id": "water_008",
+      "name": "里间雨",
+      "rarity": "R",
+      "series": "nightcord",
+      "attribute": "water",
+      "style": "water"
+    },
+    {
+      "id": "water_009",
+      "name": "宫崎奏",
+      "rarity": "R",
+      "series": "nightcord",
+      "attribute": "water",
+      "style": "water"
+    },
+    {
+      "id": "water_011",
+      "name": "青蓝妆者",
+      "rarity": "SSR",
+      "series": "nightcord",
+      "attribute": "water",
+      "style": "water"
+    },
+    {
+      "id": "source_monster_002",
+      "name": "白羽静梦",
+      "rarity": "R",
+      "series": "source_archive",
+      "attribute": "wind",
+      "style": "wind"
+    },
+    {
+      "id": "source_monster_003",
+      "name": "祥子",
+      "rarity": "R",
+      "series": "source_archive",
+      "attribute": "light",
+      "style": "light"
+    },
+    {
+      "id": "source_monster_004",
+      "name": "蕾塞·雨夜引魂",
+      "rarity": "SSR",
+      "series": "source_archive",
+      "attribute": "dark",
+      "style": "dark"
+    },
+    {
+      "id": "source_monster_005",
+      "name": "绯线誓约·青叶",
+      "rarity": "SSR",
+      "series": "source_archive",
+      "attribute": "fire",
+      "style": "flame"
+    },
+    {
+      "id": "source_monster_006",
+      "name": "绯线誓约·棕羽",
+      "rarity": "SSR",
+      "series": "source_archive",
+      "attribute": "earth",
+      "style": "earth"
+    },
+    {
+      "id": "source_monster_007",
+      "name": "绯线誓约·金瞳",
+      "rarity": "SSR",
+      "series": "source_archive",
+      "attribute": "water",
+      "style": "water"
+    },
+    {
+      "id": "source_monster_017",
+      "name": "咒灵武者·赤影",
+      "rarity": "SSR",
+      "series": "source_archive",
+      "attribute": "fire",
+      "style": "flame"
+    },
+    {
+      "id": "source_monster_018",
+      "name": "白绫神姬·天仪",
+      "rarity": "UR",
+      "series": "source_archive",
+      "attribute": "earth",
+      "style": "earth"
+    }
+  ]
+}
