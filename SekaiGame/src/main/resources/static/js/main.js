@@ -1,5 +1,5 @@
 ﻿/**
- * main.js - 浜у搧鍏ュ彛锛氳璇併€佸瓨妗ｃ€佹父鎴忓ぇ鍘呬笌鍐虫枟娴佺▼
+ * main.js - 产品入口：认证、存档、游戏大厅与决斗流程
  */
 import { Player, GameState } from "./model.js";
 import { GameEngine } from "./engine.js?v=1.7.19";
@@ -29,7 +29,7 @@ function showFatalGameError(error) {
         panel.style.cssText = "position:fixed;z-index:10000;left:50%;top:50%;transform:translate(-50%,-50%);width:min(560px,calc(100vw - 32px));padding:24px;border:1px solid #ff7b99;background:#15101b;color:#fff;box-shadow:0 20px 70px rgba(0,0,0,.5);font:16px/1.6 system-ui,sans-serif";
         document.body.appendChild(panel);
     }
-    panel.innerHTML = `<strong style="display:block;margin-bottom:8px;color:#ff9bb1">PvP 鍒濆鍖栧け璐?/strong><code style="white-space:pre-wrap;word-break:break-word">${message.replace(/[&<>]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[char])}</code><p style="margin:14px 0 0;color:#d9c9d0">璇锋埅鍥炬鎻愮ず鍙戦€佺粰寮€鍙戣€呫€?/p>`;
+    panel.innerHTML = `<strong style="display:block;margin-bottom:8px;color:#ff9bb1">PvP 初始化失败</strong><code style="white-space:pre-wrap;word-break:break-word">${message.replace(/[&<>]/g, char => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;" })[char])}</code><p style="margin:14px 0 0;color:#d9c9d0">请截图此提示发送给开发者。</p>`;
 }
 
 window.addEventListener("error", event => showFatalGameError(event.error || event.message));
@@ -50,7 +50,7 @@ const authTabs = document.querySelectorAll("[data-auth-mode]");
 const nickField = document.querySelector(".auth-nick-field");
 let authMode = "login";
 
-// 绂荤嚎鐢ㄦ埛瀛樺偍
+// 离线用户存储
 const OFFLINE_USERS_KEY = "nightcord_offline_users";
 function getOfflineUsers() {
     try { return JSON.parse(localStorage.getItem(OFFLINE_USERS_KEY)) || {}; } catch { return {}; }
@@ -68,7 +68,7 @@ function verifyOfflineUser(username, password) {
     return null;
 }
 
-// 棰勭疆鐢ㄦ埛锛歴ekai / sekai-demo-pass
+// 预置用户：sekai / sekai-demo-pass
 (function seedOfflineUsers() {
     const users = getOfflineUsers();
     if (!users["sekai"]) {
@@ -86,7 +86,7 @@ authTabs.forEach(tab => {
     });
 });
 
-// 璺敱锛氭牴鎹?URL 璺緞鍐冲畾鏄剧ず鐧诲綍銆佹敞鍐屻€佽繕鏄父鎴?
+// 路由：根据 URL 路径决定显示登录、注册、还是游戏
 function getPathRoute() {
     const path = window.location.pathname.replace(/\/+$/, "");
     if (path === "/register") return "register";
@@ -111,28 +111,28 @@ function attachAuthHandler() {
     const username = document.getElementById("auth-username").value.trim();
     const password = document.getElementById("auth-password").value;
     const nickname = document.getElementById("auth-nickname").value.trim();
-    if (!username || !password) { authError.textContent = "璇峰～鍐欑敤鎴峰悕鍜屽瘑鐮?; return; }
+    if (!username || !password) { authError.textContent = "请填写用户名和密码"; return; }
 
     authError.textContent = "";
     const submitBtn = form.querySelector(".auth-submit");
     submitBtn.disabled = true;
-    submitBtn.textContent = "澶勭悊涓?..";
+    submitBtn.textContent = "处理中...";
 
     let result;
     if (authMode === "register") {
-        if (!nickname) { authError.textContent = "璇峰～鍐欐樀绉?; submitBtn.disabled = false; submitBtn.textContent = "纭"; return; }
+        if (!nickname) { authError.textContent = "请填写昵称"; submitBtn.disabled = false; submitBtn.textContent = "确认"; return; }
         result = await api.register(username, password, nickname);
         if (!result.success) {
             const allowOffline = ["localhost", "127.0.0.1"].includes(location.hostname);
             if (allowOffline) {
                 const users = getOfflineUsers();
-                if (users[username]) { authError.textContent = "鐢ㄦ埛鍚嶅凡瀛樺湪"; submitBtn.disabled = false; submitBtn.textContent = "纭"; return; }
+                if (users[username]) { authError.textContent = "用户名已存在"; submitBtn.disabled = false; submitBtn.textContent = "确认"; return; }
                 saveOfflineUser(username, password, nickname);
                 result = { success: true, userId: null, username, nickname };
             } else {
-                authError.textContent = result.reason || "娉ㄥ唽澶辫触";
+                authError.textContent = result.reason || "注册失败";
                 submitBtn.disabled = false;
-                submitBtn.textContent = "纭";
+                submitBtn.textContent = "确认";
                 return;
             }
         }
@@ -144,9 +144,9 @@ function attachAuthHandler() {
             if (offlineUser) {
                 result = { success: true, userId: null, username: offlineUser.username, nickname: offlineUser.nickname };
             } else {
-                authError.textContent = "鐢ㄦ埛鍚嶆垨瀵嗙爜閿欒锛屾垨鏈嶅姟鍣ㄦ殏鏃朵笉鍙敤";
+                authError.textContent = "用户名或密码错误，或服务器暂时不可用";
                 submitBtn.disabled = false;
-                submitBtn.textContent = "纭";
+                submitBtn.textContent = "确认";
                 return;
             }
         }
@@ -154,17 +154,17 @@ function attachAuthHandler() {
 
     if (result.success) {
         saveAuth({ userId: result.userId, username: result.username, nickname: result.nickname });
-        // 鐧诲綍/娉ㄥ唽鎴愬姛鍚庤烦杞埌娓告垙棣栭〉
+        // 登录/注册成功后跳转到游戏首页
         if (getPathRoute() !== "game") {
             window.location.href = "/";
             return;
         }
         startApp();
     } else {
-        authError.textContent = result.reason || "鎿嶄綔澶辫触";
+        authError.textContent = result.reason || "操作失败";
     }
     submitBtn.disabled = false;
-    submitBtn.textContent = "纭";
+    submitBtn.textContent = "确认";
     });
 }
 
@@ -188,7 +188,7 @@ async function syncFromServer(userId) {
         try {
             collection.currency.shards = JSON.parse(userResult.shardsJson || "{}");
             collection.pityCounters = JSON.parse(userResult.pityCountersJson || "{}");
-        } catch { /* 淇濈暀鏈湴缁忔祹鏁版嵁 */ }
+        } catch { /* 保留本地经济数据 */ }
         collection.statistics.packsOpened = userResult.packsOpened ?? collection.statistics.packsOpened;
         collection.statistics.duelsPlayed = userResult.duelsPlayed ?? collection.statistics.duelsPlayed;
         collection.statistics.wins = userResult.wins ?? collection.statistics.wins;
@@ -196,7 +196,7 @@ async function syncFromServer(userId) {
         collection.statistics.draws = userResult.draws ?? collection.statistics.draws;
     }
 
-    // 鐧诲綍鐢ㄦ埛瀹屽叏浠ユ湇鍔＄鍗＄粍涓哄噯锛岄伩鍏嶆棫娴忚鍣ㄥ瓨妗ｉ噸鏂颁笂浼犳湭鎷ユ湁鍗°€?
+    // 登录用户完全以服务端卡组为准，避免旧浏览器存档重新上传未拥有卡。
     if (decksResult.success && Array.isArray(decksResult.decks)) {
         const serverDecks = decksResult.decks.map(d => ({
             id: d.id,
@@ -241,7 +241,7 @@ async function syncDuelToServer(userId, matchResult, reward, mode = "ai", stage 
     await api.recordDuel(userId, {
         result: matchResult,
         opponentType: mode,
-        opponentName: stage?.opponent || (mode === "pvp" ? "PvP鐜╁" : "Nightcord AI"),
+        opponentName: stage?.opponent || (mode === "pvp" ? "PvP玩家" : "Nightcord AI"),
         coinsEarned: reward?.duelCoins || 0,
     });
     await api.updateUser(userId, { duelCoins: collection.currency.duelCoins });
@@ -254,7 +254,7 @@ async function startApp() {
 
     collection = ensureProfile(loadSave() || createNewProfile());
 
-    // 娴嬭瘯妯″紡锛氬叏鍗3 + 999999鍐虫枟甯侊紙浠呭湪璁剧疆涓墜鍔ㄥ紑鍚椂鐢熸晥锛?
+    // 测试模式：全卡x3 + 999999决斗币（仅在设置中手动开启时生效）
     if (collection.settings.demoMode) {
         enableDemoMode(collection, ALL_CARDS);
         collection.currency.duelCoins = 999999;
@@ -270,7 +270,7 @@ async function startApp() {
             clearAuth();
             document.getElementById("app-shell").classList.add("is-hidden");
             authScreen.classList.remove("hidden");
-            authError.textContent = "鐧诲綍鐘舵€佸凡澶辨晥锛岃閲嶆柊鐧诲綍浠ュ悓姝ユ湇鍔″櫒鍗＄墝";
+            authError.textContent = "登录状态已失效，请重新登录以同步服务器卡牌";
             return;
         }
         if (String(auth.username || "").toLowerCase() === "sekai") {
@@ -297,7 +297,7 @@ async function startApp() {
             logoutBtn.style.marginTop = "12px";
             logoutBtn.style.borderColor = "rgba(255,111,141,.4)";
             logoutBtn.style.color = "#ffc4d0";
-            logoutBtn.textContent = "閫€鍑虹櫥褰?;
+            logoutBtn.textContent = "退出登录";
             logoutBtn.addEventListener("click", () => {
                 clearAuth();
                 location.reload();
@@ -318,29 +318,29 @@ function buildDeckCards(deckDefinition) {
 function createNewGame(mode = "ai", playerDeck = app.getSelectedDeck(), pvpClient = null, gameInfo = null, matchConfig = {}) {
     if (!playerDeck) {
         app.showShell();
-        app.toast("娌℃湁鍙敤鍗＄粍", "error");
+        app.toast("没有可用卡组", "error");
         return;
     }
     currentController?.clearAiTimer();
     matchSettled = false;
     currentMatch = { mode, playerDeck, pvpClient, stage: matchConfig.stage || null, opponentDeck: matchConfig.opponentDeck || null };
 
-    // PvP妯″紡锛氫娇鐢ㄥ叡浜殢鏈虹瀛愶紝纭繚鍙屾柟闅忔満缁撴灉涓€鑷?
+    // PvP模式：使用共享随机种子，确保双方随机结果一致
     let rng = null;
     if (mode === "pvp" && gameInfo?.seed) {
         rng = new SeededRandom(gameInfo.seed);
     }
 
-    // 鏋勫缓瀵规墜鍗＄粍
+    // 构建对手卡组
     let opponentCards;
     if (mode === "pvp" && gameInfo?.opponentDeck) {
-        // PvP锛氫粠鍚屾鐨勫崱鐗孖D鍒楄〃鏋勫缓瀵规墜鍗＄粍
+        // PvP：从同步的卡牌ID列表构建对手卡组
         opponentCards = gameInfo.opponentDeck
             .map(cardId => getCardById(cardId))
             .filter(Boolean)
             .map(card => hydrateCardArt(card, collection.selectedArtByCard));
     } else {
-        // AI锛氫娇鐢ㄥ拰鐜╁涓€鏍风殑鍗＄粍
+        // AI：使用和玩家一样的卡组
         opponentCards = buildDeckCards(matchConfig.opponentDeck || playerDeck);
     }
 
@@ -350,8 +350,8 @@ function createNewGame(mode = "ai", playerDeck = app.getSelectedDeck(), pvpClien
     const preserveDeckOrder = mode === "pvp";
     const state = new GameState();
     state.players = [
-        new Player(collection.profile?.name || "鍐虫枟鑰?, playerCards, rng, preserveDeckOrder),
-        new Player(gameInfo?.opponentName || matchConfig.stage?.opponent || (mode === "training" ? "缁冧範 AI" : "Nightcord AI"), opponentCards, rng, preserveDeckOrder),
+        new Player(collection.profile?.name || "决斗者", playerCards, rng, preserveDeckOrder),
+        new Player(gameInfo?.opponentName || matchConfig.stage?.opponent || (mode === "training" ? "练习 AI" : "Nightcord AI"), opponentCards, rng, preserveDeckOrder),
     ];
 
     const engine = new GameEngine(state, rng);
@@ -377,12 +377,12 @@ function createNewGame(mode = "ai", playerDeck = app.getSelectedDeck(), pvpClien
     currentUI.showBattle();
 
     if (mode === "pvp" && pvpClient) {
-        // PvP妯″紡锛氭牴鎹厛鎵?鍚庢墜鍐冲畾鏄惁绔嬪嵆琛屽姩
+        // PvP模式：根据先手/后手决定是否立即行动
         const isMyTurn = gameInfo.yourIndex === gameInfo.firstPlayer;
         if (!isMyTurn) {
-            currentUI.addLog("绛夊緟瀵规墜琛屽姩...", "turn");
+            currentUI.addLog("等待对手行动...", "turn");
         }
-        // 鐩戝惉瀵规墜鎿嶄綔
+        // 监听对手操作
         pvpClient.onAction = (action, playerIndex) => {
             if (playerIndex === 1 - gameInfo.yourIndex) {
                 currentController.applyRemoteAction(action);
@@ -456,7 +456,7 @@ function rematch() {
         if (currentMatch.mode === "pvp" && currentMatch.pvpClient) {
             currentMatch.pvpClient.disconnect();
             app.navigate("home");
-            app.toast("PvP瀵规垬宸茬粨鏉燂紝璇烽噸鏂板垱寤烘埧闂?, "info");
+            app.toast("PvP对战已结束，请重新创建房间", "info");
             return;
         }
         createNewGame(currentMatch.mode, currentMatch.playerDeck, null, null, currentMatch);
@@ -493,11 +493,11 @@ function initializeDomBindings() {
     });
 
     app?.renderTopbar();
-    console.log("Nightcord Duel Network 宸插姞杞?, { cards: ALL_CARDS.length });
+    console.log("Nightcord Duel Network 已加载", { cards: ALL_CARDS.length });
 }
 
 // ---- Entry Point ----
-// URL 鍔??reset 鍙己鍒舵竻妗ｉ噸鏉?
+// URL 加 ?reset 可强制清档重来
 if (new URLSearchParams(location.search).has("reset")) {
     localStorage.removeItem("dimensional_duel_save");
     localStorage.removeItem("nightcord_auth");
@@ -507,16 +507,16 @@ if (new URLSearchParams(location.search).has("reset")) {
     history.replaceState(null, "", location.pathname);
 }
 
-// ---- 璺敱鍒濆鍖?----
+// ---- 路由初始化 ----
 const route = getPathRoute();
 if (route === "login") {
-    // /login 鈫?寮哄埗鏄剧ず鐧诲綍椤?
+    // /login → 强制显示登录页
     showAuthScreen("login");
 } else if (route === "register") {
-    // /register 鈫?寮哄埗鏄剧ず娉ㄥ唽椤?
+    // /register → 强制显示注册页
     showAuthScreen("register");
 } else {
-    // / 鎴?/game 鈫?宸茬櫥褰曡繘娓告垙锛屾湭鐧诲綍璺?/login
+    // / 或 /game → 已登录进游戏，未登录跳 /login
     if (isAuthenticated()) {
         startApp();
     } else {
@@ -529,4 +529,3 @@ if (document.readyState === "loading") {
 } else {
     initializeDomBindings();
 }
-
